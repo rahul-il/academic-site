@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Computer Science PhD Student at MIT
+role: Computer Science PhD Student
 
 # Organizations/Affiliations
 organizations:
