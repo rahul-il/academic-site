@@ -21,9 +21,8 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Computational Complexity Theory
+- The Minimum Circuit Size Problem
 
 education:
   courses:
@@ -64,6 +63,6 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a first-year PhD student in the CS department at MIT, where I am advised by Ryan Williams. Prior to this, I did studied math and computer science at Rutgers University, where I was lucky enough to be able to learn from Eric Allender and Michael Saks. I also participated twice in the DIMACS REU program.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+At the moment, I am very interesting the proving hardness results for the Minimum Circuit Size Problem (MCSP) and its variants. In some sense,  
