@@ -63,6 +63,6 @@ user_groups:
 - Visitors
 ---
 
-I am a first-year PhD student in the CS department at MIT, where I am advised by Ryan Williams. Prior to this, I did studied math and computer science at Rutgers University, where I was lucky enough to be able to learn from Eric Allender and Michael Saks. I also participated twice in the DIMACS REU program.
+I am a first-year PhD student in the CS department at MIT, [test](google.com) where I am advised by Ryan Williams. Prior to this, I did studied math and computer science at Rutgers University, where I was lucky enough to be able to learn from Eric Allender and Michael Saks. I also participated twice in the DIMACS REU program.
 
 At the moment, I am very interesting the proving hardness results for the Minimum Circuit Size Problem (MCSP) and its variants. In some sense,  
