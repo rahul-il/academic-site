@@ -54,7 +54,7 @@ title = "My Research Focus"
     <center><h3>The Minimum Circuit Size Problem (MCSP) and its Connections.</h3></center>
     {{< figure library="true" src="mcsp_connections_graphic.png" title="" lightbox="true" >}}
     <center>
-        <a href="#" data-filter="{{ $data_filter | safeHTMLAttr }}" class="btn btn-primary btn-lg{{ if eq $idx $filter_default }} active{{ end }}">Learn More AbouT MCSPin my TCS+ Talk</a>
+        <a href="#" data-filter="{{ $data_filter | safeHTMLAttr }}" class="btn btn-primary btn-lg{{ if eq $idx $filter_default }} active{{ end }}">Learn More About MCSP in my TCS+ Talk</a>
     </center>
   </div>
   <div class="col-12 col-lg-6">
