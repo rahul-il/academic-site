@@ -21,12 +21,12 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Computational Complexity Theory
-- The Minimum Circuit Size Problem
+# - Computational Complexity Theory
+# - The Minimum Circuit Size Problem
 
 education:
-  courses:
-  - course: BS in Math and Computer Science
+  # courses:
+  # - course: BS in Math and Computer Science
     institution: Rutgers University
     year: 2019
 
