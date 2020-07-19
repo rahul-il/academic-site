@@ -59,20 +59,20 @@ in CCC'20
 <a class="btn btn-outline-primary my-1 mr-1" href=".">Todo TOC Journal Submission</a>
 
 
-#### Circuit Minimization for Multioutput Circuits is NP-hard
+#### NP-Hardness of Circuit Minimization for Multi-Output Functions
 with Bruno Loff and Igor Oliveira     
 in CCC'20       
 <a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
 <a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
 
-#### Approaching MCSP from Above and Below: Hardness for AC0[p] and an Oracle Variant
+#### Approaching MCSP from Above and Below: Hardness for a Conditional Variant and AC0[p]
 in ITCS'20          
 **_ITCS Best Student Paper Award_**    
 <a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
 <a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
 
-#### Hardness for MCSP via the Coin Problem
-with Alexander Golovnev, Russell Impagliazzo, Valentine Kabanets, Antonina Kolokolova, and Avishay Tal      
+#### AC0[p] Lower Bounds Against MCSP via the Coin Problem
+with Alexander Golovnev, Russell Impagliazzo, Valentine Kabanets, Antonina Kolokolova, and Avishay Tal    
 in ICALP'19   
 <a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
 <a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
@@ -80,5 +80,11 @@ in ICALP'19
 #### The Non-hardness of Approximating Circuit Size
 with Eric Allender and Neekon Vafa    
 in CSR'19   
+<a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
+
+#### Unique Rectification in d-Complete Posets: Towards the K-Theory of Kac-Moody Flag Varieties
+with Oliver Pechenik and Michael Zlatin 
+in the Electronic Journal of Combinatorics
 <a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
 <a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
