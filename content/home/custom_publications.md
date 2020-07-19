@@ -52,7 +52,7 @@ subtitle = "In reverse chronological order"
 
 #### Connecting Perebor Conjectures: Toward a Search to Decision Reduction for Formulas
 in CCC'20     
-_CCC Best Student Paper Award_    
+**_CCC Best Student Paper Award_**
 <a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
 <a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
 
@@ -65,7 +65,7 @@ in CCC'20
 
 #### Approaching MCSP from Above and Below: Hardness for AC0[p] and an Oracle Variant
 in ITCS'20          
-_ITCS Best Student Paper Award_   
+**_ITCS Best Student Paper Award_**    
 <a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
 <a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
 
