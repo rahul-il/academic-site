@@ -50,31 +50,36 @@ subtitle = "In reverse chronological order"
  css_class = ""
 +++
 
-##### Connecting Perebor Conjectures: Toward a Search to Decision Reduction for Formulas
+#### Connecting Perebor Conjectures: Toward a Search to Decision Reduction for Formulas
 in CCC'20     
-**CCC Best Student Paper Award**
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="."> CCC Proceedings  </a>
-[CCC Proceedings](.) [TOC Journal Submission](.)
+_CCC Best Student Paper Award_    
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">CCC Proceedings</a>
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">TOC Journal Submission</a>
 
-##### Circuit Minimization for Multioutput Circuits is NP-hard
+
+#### Circuit Minimization for Multioutput Circuits is NP-hard
 with Bruno Loff and Igor Oliveira     
 in CCC'20       
-[CCC Proceedings](.) [ECCC](.)
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">CCC Proceedings</a>
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">TOC Journal Submission</a>
 
-##### Approaching MCSP from Above and Below: Hardness for AC0[p] and an Oracle Variant
+#### Approaching MCSP from Above and Below: Hardness for AC0[p] and an Oracle Variant
 in ITCS'20          
-**ITCS Best Student Paper Award**   
-[CCC Proceedings](.) [ECCC](.)
+_ITCS Best Student Paper Award_   
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">CCC Proceedings</a>
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">TOC Journal Submission</a>
 
-##### Hardness for MCSP via the Coin Problem
+#### Hardness for MCSP via the Coin Problem
 with Alexander Golovnev, Russell Impagliazzo, Valentine Kabanets, Antonina Kolokolova, and Avishay Tal      
 in ICALP'19   
-[CCC Proceedings](.) [ECCC](.)
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">CCC Proceedings</a>
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">TOC Journal Submission</a>
 
-##### The Non-hardness of Approximating Circuit Size
+#### The Non-hardness of Approximating Circuit Size
 with Eric Allender and Neekon Vafa    
 in CSR'19   
-[CCC Proceedings](.) [ECCC](.)
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">CCC Proceedings</a>
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">TOC Journal Submission</a>
 
 
 
