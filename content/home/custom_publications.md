@@ -80,27 +80,3 @@ with Eric Allender and Neekon Vafa
 in CSR'19   
 <a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
 <a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
-
-
-
-<div class="row">
-  <div class="col-12">
-    <div class="card experience course">
-        <div class="card-body">
-          <h4 class="card-title exp-title text-muted my-0">Connecting Perebor Conjectures: Toward a Search to Decision Reduction for Formulas</h4>
-          <div class="card-subtitle my-0 article-metadata">
-            with Myself
-            <span class="middot-divider"></span>
-            CCC '20
-          </div>
-            <div class="card-text">Description</div>
-            <a class="card-link" href="{{.}}" target="_blank" rel="noopener">
-              [CCC Proceedings]
-            </a>
-          <a class="card-link" href="{{.}}" target="_blank" rel="noopener">
-              [TOC Journal Submission]
-            </a>
-        </div>
-      </div>
-  </div>
-</div>
