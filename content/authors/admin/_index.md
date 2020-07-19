@@ -65,5 +65,5 @@ user_groups:
 
 I am a first-year PhD student studying Theoretical Computer Science at MIT, where I am advised by [Ryan Williams](https://people.csail.mit.edu/rrw/). Prior to this, I studied math and computer science at Rutgers University, where I was lucky enough to spend time thinking about reserach with [Eric Allender](https://www.cs.rutgers.edu/~allender/) and [Michael Saks](https://sites.math.rutgers.edu/~saks/). I also participated twice in the [DIMACS REU program](https://reu.dimacs.rutgers.edu/).
 
-My current focus is in Computational Complexity Theory, which studies the resources -- like time and hardware -- needed to accomplish certain computational tasks -- like finding the fastest route from point A to point B on a map.
+My current focus is in Computational Complexity Theory, which studies the resources --- like time and hardware --- needed to accomplish certain computational tasks -- like finding the fastest route from point A to point B on a map.
 
