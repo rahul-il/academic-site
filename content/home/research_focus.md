@@ -25,8 +25,8 @@ subtitle = "The Minimum Circuit Size Problem (MCSP) and Its Connections"
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "DarkGreen"
-  gradient_end = "ForestGreen"
+  # gradient_start = "DarkGreen"
+  # gradient_end = "ForestGreen"
   
   # Background image.
   # image = "image.jpg"  # Name of image in `static/img/`.
@@ -36,7 +36,7 @@ subtitle = "The Minimum Circuit Size Problem (MCSP) and Its Connections"
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
   
   # Text color (true=light or false=dark).
-  text_color_light = true
+  # text_color_light = false
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
@@ -53,10 +53,10 @@ subtitle = "The Minimum Circuit Size Problem (MCSP) and Its Connections"
 Welcome to the **Academic Kickstart** template!
 
 <div class="row">
-  <div class="col-12 col-lg-4">
+  <div class="col-12 col-lg-6">
     <h1> Hi</h1>
   </div>
-  <div class="col-12 col-lg-8">
+  <div class="col-12 col-lg-6">
     <h1> Bye!</h1>
   </div>
 </div>
