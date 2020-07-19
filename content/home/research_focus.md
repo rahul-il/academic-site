@@ -55,22 +55,10 @@ Welcome to the **Academic Kickstart** template!
 
 <div class="row">
   <div class="col-12 col-lg-6">
-    <h1> Hi</h1>
-    {{< figure library="true" src="mcsp_connections_graphic.png" title="A caption" lightbox="true" >}}
-    <p>1</p>
-    ![alternative text for search engines](athens.jpg)
-    <p>2</p>
-    < figure library="true" src="mcsp_connections_graphic.png" title="A caption" lightbox="true" >
-      <p>3</p>
-      <img src="mcsp_connections_graphic.png" title="A caption" >
-      <p>4</p>
-      {{< figure library="true" src="athens.jpg" title="A caption" lightbox="true" >}}
-      <p>5</p>
-      <img src="athens.jpg" title="A caption" >
-      <p>6</p>
-      <p>7</p>
+    <h1>MCSP's Connections</h1>
+    {{< figure library="true" src="mcsp_connections_graphic.png" title="A growing list of areas with connections to MCSP" lightbox="true" >}}
   </div>
   <div class="col-12 col-lg-6">
-    <h1> Bye!</h1>
+    <p>So far, my research has mainly focused on studying a specific computational task called the Minimum Circuit Size Problem (MCSP). One reason why MCSP is interesting is that it represents a "universal attack on cryptography": if someone found a fast algorithm for MCSP, then they could use it to break any type of cryptography. Thus, one would hope that MCSP is not an easy problem to solve, and my research is working towards proving "hardness" for MCSP.</p>
   </div>
 </div>
