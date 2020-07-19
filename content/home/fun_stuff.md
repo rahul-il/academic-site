@@ -8,8 +8,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 27  # Order that this section will appear.
 
-title = "Publications"
-subtitle = "(reverse chronological order)"
+title = "Fun Stuff"
+subtitle = "Some things that are not related to research"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
