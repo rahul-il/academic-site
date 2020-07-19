@@ -51,7 +51,7 @@ title = "My Research Focus"
 
 <div class="row">
   <div class="col-12 col-lg-6">
-    <center><h3>The Minimum Circuit Size Problem(MCSP) and its Connections.</h3></center>
+    <center><h3>The Minimum Circuit Size Problem (MCSP) and its Connections.</h3></center>
     {{< figure library="true" src="mcsp_connections_graphic.png" title="" lightbox="true" >}}
   </div>
   <div class="col-12 col-lg-6">
