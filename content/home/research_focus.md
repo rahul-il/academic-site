@@ -56,6 +56,7 @@ title = "My Research Focus"
     <center>
         <a href="#" data-filter="{{ $data_filter | safeHTMLAttr }}" class="btn btn-primary btn-lg{{ if eq $idx $filter_default }} active{{ end }}">Learn More About MCSP in my TCS+ Talk</a>
     </center>
+    <br/>
   </div>
   <div class="col-12 col-lg-6">
     <p>So far, my research has mainly focused on studying a problem abbreviated MCSP, whose computational properties were first studied back in the 1950s. Despite this long history, MCSP still remains relatively mysterious. Even so, researchers have discovered fascinating connections between MCSP and a growing number of areas in the Theoretical Computer Science.</p>
