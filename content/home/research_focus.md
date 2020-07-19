@@ -56,6 +56,6 @@ title = "My Research Focus"
   </div>
   <div class="col-12 col-lg-6">
     <p>So far, my research has mainly focused on studying a problem called the Minimum Circuit Size Problem (MCSP) and its variants. Part of what makes MCSP so interesting is the surprising connections it has to a growing number of subfields in the Theoretical Computer Science.</p>
-    <p> For eaxmple, MCSP represents a "universal attack on cryptography": if someone found a fast algorithm for MCSP, then they could use it to break any type of cryptography. Thus, for the sake of cryptography, one would hope that MCSP is not an easy problem to solve. My research is working towards proving MCSP is hard, which is a necessary step towards attaining *provably* secure cryptography.</p>
+    For eaxmple, MCSP represents a "universal attack on cryptography": if someone found a fast algorithm for MCSP, then they could use it to break any type of cryptography. Thus, for the sake of cryptography, one would hope that MCSP is not an easy problem to solve. My research is working towards proving MCSP is hard, which is a necessary step towards attaining *provably* secure cryptography.
   </div>
 </div>
