@@ -62,6 +62,12 @@ Welcome to the **Academic Kickstart** template!
     < figure library="true" src="mcsp_connections_graphic.png" title="A caption" lightbox="true" >
       <p>3</p>
       <img src="mcsp_connections_graphic.png" title="A caption" >
+      <p>4</p>
+      {{< figure library="true" src="athens.jpg" title="A caption" lightbox="true" >}}
+      <p>5</p>
+      <img src="athens.jpg" title="A caption" >
+      <p>6</p>
+      <p>7</p>
   </div>
   <div class="col-12 col-lg-6">
     <h1> Bye!</h1>
