@@ -67,5 +67,5 @@ I am a first-year PhD student studying Theoretical Computer Science at MIT, wher
 
 My current focus is in Computational Complexity Theory, which studies the resources --- like time and hardware --- needed to accomplish certain computational tasks -- like finding the fastest route from point A to point B on a map.
 
-{{< icon name="envelope" pack="fas" >}} <first initial> + <lastname> @mit.edu (plus not included)
+{{< icon name="envelope" pack="fas" class="big-icon">}} first initial + lastname @mit.edu (plus not included)
 
