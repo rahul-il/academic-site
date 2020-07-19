@@ -9,7 +9,7 @@ active = true  # Activate this widget? true/false
 weight = 27  # Order that this section will appear.
 
 title = "Publications"
-subtitle = "In reverse chronological order"
+subtitle = "(reverse chronological order)"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -50,11 +50,13 @@ subtitle = "In reverse chronological order"
  css_class = ""
 +++
 
-#### Connecting Perebor Conjectures: Toward a Search to Decision Reduction for Formulas
-in CCC'20     
+#### Connecting Perebor Conjectures: Towards a Search to Decision Reduction for Minimizing Formulas
+in CCC'20  
 **_CCC Best Student Paper Award_**
-<a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">CCC Proceedings</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">Todo CCC Talk Video</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">Todo CCC Slides</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">Todo TOC Journal Submission</a>
 
 
 #### Circuit Minimization for Multioutput Circuits is NP-hard
