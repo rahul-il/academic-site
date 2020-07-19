@@ -52,7 +52,8 @@ subtitle = "In reverse chronological order"
 
 ##### Connecting Perebor Conjectures: Toward a Search to Decision Reduction for Formulas
 in CCC'20     
-**CCC Best Student Paper Award**    
+**CCC Best Student Paper Award**
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="."> CCC Proceedings  </a>
 [CCC Proceedings](.) [TOC Journal Submission](.)
 
 ##### Circuit Minimization for Multioutput Circuits is NP-hard
