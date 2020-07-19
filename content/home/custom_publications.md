@@ -52,7 +52,7 @@ subtitle = "(reverse chronological order)"
 
 #### Connecting Perebor Conjectures: Towards a Search to Decision Reduction for Minimizing Formulas
 in CCC'20   
-**_CCC Best Student Paper Award_**<br/>
+**_CCC Best Student Paper Award_**    
 <a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">PDF</a>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">CCC Talk Video</a>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">CCC Talk Slides</a>
@@ -68,7 +68,7 @@ in CCC'20 <br/>
 
 #### Approaching MCSP from Above and Below: Hardness for a Conditional Variant and AC0[p]
 in ITCS'20    
-**_ITCS Best Student Paper Award_**<br/>
+**_ITCS Best Student Paper Award_**   
 <a class="btn btn-outline-primary my-1 mr-1" href=".">PDF</a>
 <a class="btn btn-outline-primary my-1 mr-1" href=".">Slides</a>
 
