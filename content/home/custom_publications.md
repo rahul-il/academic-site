@@ -50,27 +50,27 @@ subtitle = "In reverse chronological order"
  css_class = ""
 +++
 
-### Connecting Perebor Conjectures: Toward a Search to Decision Reduction for Formulas
+##### Connecting Perebor Conjectures: Toward a Search to Decision Reduction for Formulas
 in CCC'20     
 **CCC Best Student Paper Award**    
 [CCC Proceedings](.) [TOC Journal Submission](.)
 
-### Circuit Minimization for Multioutput Circuits is NP-hard
+##### Circuit Minimization for Multioutput Circuits is NP-hard
 with Bruno Loff and Igor Oliveira     
 in CCC'20       
 [CCC Proceedings](.) [ECCC](.)
 
-### Approaching MCSP from Above and Below: Hardness for AC0[p] and an Oracle Variant
+##### Approaching MCSP from Above and Below: Hardness for AC0[p] and an Oracle Variant
 in ITCS'20          
 **ITCS Best Student Paper Award**   
 [CCC Proceedings](.) [ECCC](.)
 
-### Hardness for MCSP via the Coin Problem
+##### Hardness for MCSP via the Coin Problem
 with Alexander Golovnev, Russell Impagliazzo, Valentine Kabanets, Antonina Kolokolova, and Avishay Tal      
 in ICALP'19   
 [CCC Proceedings](.) [ECCC](.)
 
-### The Non-hardness of Approximating Circuit Size
+##### The Non-hardness of Approximating Circuit Size
 with Eric Allender and Neekon Vafa    
 in CSR'19   
 [CCC Proceedings](.) [ECCC](.)
