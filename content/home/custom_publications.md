@@ -51,40 +51,41 @@ subtitle = "(reverse chronological order)"
 +++
 
 #### Connecting Perebor Conjectures: Towards a Search to Decision Reduction for Minimizing Formulas
-in CCC'20  
-**_CCC Best Student Paper Award_**
-<a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">CCC Proceedings</a>
-<a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">Todo CCC Talk Video</a>
-<a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">Todo CCC Slides</a>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">Todo TOC Journal Submission</a>
+in CCC'20 <br/>
+**_CCC Best Student Paper Award_**<br/>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">PDF</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">CCC Talk Video</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">CCC Talk Slides</a>
 
 
 #### NP-Hardness of Circuit Minimization for Multi-Output Functions
-with Bruno Loff and Igor Oliveira     
-in CCC'20       
-<a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
+with Bruno Loff and Igor Oliveira <br/>
+in CCC'20 <br/>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">PDF</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">TCS+ Talk</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">HSE Talk</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Talk</a>
 
 #### Approaching MCSP from Above and Below: Hardness for a Conditional Variant and AC0[p]
-in ITCS'20          
-**_ITCS Best Student Paper Award_**    
-<a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
+in ITCS'20<br/>
+**_ITCS Best Student Paper Award_**<br/>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">PDF</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">Slides</a>
 
 #### AC0[p] Lower Bounds Against MCSP via the Coin Problem
-with Alexander Golovnev, Russell Impagliazzo, Valentine Kabanets, Antonina Kolokolova, and Avishay Tal    
-in ICALP'19   
-<a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
+with Alexander Golovnev, Russell Impagliazzo, Valentine Kabanets, Antonina Kolokolova, and Avishay Tal<br/>
+in ICALP'19<br/>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">PDF</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">Slides</a>
 
 #### The Non-hardness of Approximating Circuit Size
-with Eric Allender and Neekon Vafa    
-in CSR'19   
-<a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
+with Eric Allender and Neekon Vafa<br/>
+in CSR'19<br/>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">PDF</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">Slides</a>
 
 #### Unique Rectification in d-Complete Posets: Towards the K-Theory of Kac-Moody Flag Varieties
-with Oliver Pechenik and Michael Zlatin 
-in the Electronic Journal of Combinatorics
-<a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
+with Oliver Pechenik and Michael Zlatin <br/>
+in the Electronic Journal of Combinatorics <br/>
+also in FPSAC '19
+<a class="btn btn-outline-primary my-1 mr-1" href=".">PDF</a>
