@@ -55,7 +55,7 @@ title = "My Research Focus"
     {{< figure library="true" src="mcsp_connections_graphic.png" title="Areas connected with MCSP" lightbox="true" >}}
   </div>
   <div class="col-12 col-lg-6">
-    <p>So far, my research has mainly focused on studying a problem abbreviated MCSP, whose computational complexity first studied in the 1950s in Russia. Despite this long history, MCSP still remains relatively mysterious to researchers. While our understanding of MCSP is limited, researchers have discovered fascinating connections between MCSP  and a growing number of subfields in the Theoretical Computer Science.</p>
-    For eaxmple, MCSP represents a "universal attack on cryptography": if someone found a fast algorithm for MCSP, then they could use it to break any type of cryptography. Thus, for the sake of cryptography, one would hope that MCSP is not an easy problem to solve. My research is working towards proving MCSP is hard, which is a necessary step towards attaining <i>provably</i> secure cryptography.
+    <p>So far, my research has mainly focused on studying a problem abbreviated MCSP, whose computational properties were first studied back in the 1950s. Despite this long history, MCSP still remains relatively mysterious. While our understanding of MCSP is limited, researchers have discovered fascinating connections between MCSP and a growing number of areas in the Theoretical Computer Science.</p>
+    For example, MCSP represents a "universal attack on cryptography": if you found a fast algorithm for MCSP, then you could use it to break <i>any</i> type of cryptography. Thus, we expect (but do not know) that MCSP is not an easy problem to solve. My research is working towards proving MCSP is hard, which is a necessary step towards attaining <i>provably</i> secure cryptography.
   </div>
 </div>
