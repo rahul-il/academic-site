@@ -52,4 +52,4 @@ subtitle = "Some things that are not related to research"
 
 - [Some things](https://soundcloud.com/shattered-serenity) I've coauthored that are not math. (I played the guitar)
 - [A tool](http://www.scarletscheduledesigner.com/) I made that has helped thousands of Rutgers students plan their degrees
-- [A desk](static/img/desk_pics) I recently woodshopped for my mom :)
+- [A desk](https://www.rahulilango.com/img/desk_pics.png) I recently made for my mom :)
