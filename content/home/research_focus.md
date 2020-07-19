@@ -52,7 +52,7 @@ title = "My Research Focus"
 <div class="row">
   <div class="col-12 col-lg-6">
     <center><h3>The Minimum Circuit Size Problem(MCSP) and its Connections.</h3></center>
-    {{< figure library="true" src="mcsp_connections_graphic.png" title="Areas connected with MCSP" lightbox="true" >}}
+    {{< figure library="true" src="mcsp_connections_graphic.png" title="" lightbox="true" >}}
   </div>
   <div class="col-12 col-lg-6">
     <p>So far, my research has mainly focused on studying a problem abbreviated MCSP, whose computational properties were first studied back in the 1950s. Despite this long history, MCSP still remains relatively mysterious. While our understanding of MCSP is limited, researchers have discovered fascinating connections between MCSP and a growing number of areas in the Theoretical Computer Science.</p>
