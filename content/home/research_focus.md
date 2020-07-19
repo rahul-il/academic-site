@@ -51,13 +51,14 @@ subtitle = "The Minimum Circuit Size Problem (MCSP) and Its Connections"
 +++
 
 Welcome to the **Academic Kickstart** template!
+![alternative text for search engines](mcsp_connections_graphic.png)
 
 <div class="row">
   <div class="col-12 col-lg-6">
     <h1> Hi</h1>
     {{< figure library="true" src="mcsp_connections_graphic.png" title="A caption" lightbox="true" >}}
     <p>1</p>
-    ![alternative text for search engines](/img/mcsp_connections_graphic.png)
+    ![alternative text for search engines](athens.jpg)
     <p>2</p>
     < figure library="true" src="mcsp_connections_graphic.png" title="A caption" lightbox="true" >
       <p>3</p>
