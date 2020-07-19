@@ -51,6 +51,7 @@ title = "Publications"
 
 ### Connecting Perebor Conjectures: Toward a Search to Decision Reduction for Formulas
 in CCC'20
+
 [CCC Proceedings](.) [TOC Journal Submission](.)
 
 <div class="row">
