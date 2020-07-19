@@ -53,33 +53,33 @@ subtitle = "In reverse chronological order"
 #### Connecting Perebor Conjectures: Toward a Search to Decision Reduction for Formulas
 in CCC'20     
 _CCC Best Student Paper Award_    
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">CCC Proceedings</a>
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">TOC Journal Submission</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
 
 
 #### Circuit Minimization for Multioutput Circuits is NP-hard
 with Bruno Loff and Igor Oliveira     
 in CCC'20       
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">CCC Proceedings</a>
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">TOC Journal Submission</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
 
 #### Approaching MCSP from Above and Below: Hardness for AC0[p] and an Oracle Variant
 in ITCS'20          
 _ITCS Best Student Paper Award_   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">CCC Proceedings</a>
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">TOC Journal Submission</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
 
 #### Hardness for MCSP via the Coin Problem
 with Alexander Golovnev, Russell Impagliazzo, Valentine Kabanets, Antonina Kolokolova, and Avishay Tal      
 in ICALP'19   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">CCC Proceedings</a>
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">TOC Journal Submission</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
 
 #### The Non-hardness of Approximating Circuit Size
 with Eric Allender and Neekon Vafa    
 in CSR'19   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">CCC Proceedings</a>
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href=".">TOC Journal Submission</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Proceedings</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">TOC Journal Submission</a>
 
 
 
