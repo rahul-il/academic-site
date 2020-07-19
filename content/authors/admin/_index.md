@@ -27,8 +27,8 @@ interests:
 education:
   # courses:
   # - course: BS in Math and Computer Science
-    institution: Rutgers University
-    year: 2019
+  #  institution: Rutgers University
+  #   year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
