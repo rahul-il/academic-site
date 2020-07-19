@@ -55,6 +55,7 @@ Welcome to the **Academic Kickstart** template!
 <div class="row">
   <div class="col-12 col-lg-6">
     <h1> Hi</h1>
+    {{< figure library="true" src="mcsp_connections_graphic.png" title="A caption" lightbox="true" >}}
   </div>
   <div class="col-12 col-lg-6">
     <h1> Bye!</h1>
