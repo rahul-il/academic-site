@@ -67,4 +67,3 @@ I am a first-year PhD student in the CS department at MIT, where I am advised by
 
 My current research is in Computational Complexity Theory, which studies the resources (like time and hardware) needed to accomplish certain computational tasks (like finding the fastest route from point A to point B on a map).
 
-# So far, my research has mainly focused on studying a specific computational task called the Minimum Circuit Size Problem (MCSP). One reason why MCSP is interesting is that it represents a "universal attack on cryptography": if someone found a fast algorithm for MCSP, then they could use it to break any type of cryptography. Thus, one would hope that MCSP is not an easy problem to solve, and my research is working towards proving "hardness" for MCSP.
