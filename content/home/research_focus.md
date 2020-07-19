@@ -56,6 +56,12 @@ Welcome to the **Academic Kickstart** template!
   <div class="col-12 col-lg-6">
     <h1> Hi</h1>
     {{< figure library="true" src="mcsp_connections_graphic.png" title="A caption" lightbox="true" >}}
+    <p>1</p>
+    ![alternative text for search engines](/img/mcsp_connections_graphic.png)
+    <p>2</p>
+    < figure library="true" src="mcsp_connections_graphic.png" title="A caption" lightbox="true" >
+      <p>3</p>
+      <img src="mcsp_connections_graphic.png" title="A caption" >
   </div>
   <div class="col-12 col-lg-6">
     <h1> Bye!</h1>
