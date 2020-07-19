@@ -50,15 +50,12 @@ subtitle = "The Minimum Circuit Size Problem (MCSP) and Its Connections"
  css_class = ""
 +++
 
-Welcome to the **Academic Kickstart** template!
-![alternative text for search engines](mcsp_connections_graphic.png)
-
 <div class="row">
   <div class="col-12 col-lg-6">
-    <h1>MCSP's Connections</h1>
-    {{< figure library="true" src="mcsp_connections_graphic.png" title="A growing list of areas with connections to MCSP" lightbox="true" >}}
+    {{< figure library="true" src="mcsp_connections_graphic.png" title="Areas connected with MCSP" lightbox="true" >}}
   </div>
   <div class="col-12 col-lg-6">
-    <p>So far, my research has mainly focused on studying a specific computational task called the Minimum Circuit Size Problem (MCSP). One reason why MCSP is interesting is that it represents a "universal attack on cryptography": if someone found a fast algorithm for MCSP, then they could use it to break any type of cryptography. Thus, one would hope that MCSP is not an easy problem to solve, and my research is working towards proving "hardness" for MCSP.</p>
+    <p>So far, my research has mainly focused on studying a problem called the Minimum Circuit Size Problem (MCSP) and its variants. Part of what makes MCSP so interesting is the surprising connections it has to a growing number of subfields in the Theoretical Computer Science.</p>
+    <p> For eaxmple, MCSP represents a "universal attack on cryptography": if someone found a fast algorithm for MCSP, then they could use it to break any type of cryptography. Thus, for the sake of cryptography, one would hope that MCSP is not an easy problem to solve. My research is working towards proving "hardness" for MCSP.</p>
   </div>
 </div>
