@@ -9,6 +9,7 @@ active = true  # Activate this widget? true/false
 weight = 27  # Order that this section will appear.
 
 title = "Publications"
+subtitle = "In reverse chronological order"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -60,7 +61,7 @@ in CCC'20
 [CCC Proceedings](.) [ECCC](.)
 
 ### Approaching MCSP from Above and Below: Hardness for AC0[p] and an Oracle Variant
-in ITCS'20
+in ITCS'20        
 **ITCS Best Student Paper Award**
 [CCC Proceedings](.) [ECCC](.)
 
