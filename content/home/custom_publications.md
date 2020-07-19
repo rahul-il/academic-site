@@ -54,16 +54,12 @@ title = "Publications"
     <div class="card experience course">
         <div class="card-body">
           <h4 class="card-title exp-title text-muted my-0">Title</h4>
-
           <div class="card-subtitle my-0 article-metadata">
             First Subtitle
             <span class="middot-divider"></span>
-
             Second Subtitle
           </div>
-
             <div class="card-text">Description</div>
-
             <a class="card-link" href="{{.}}" target="_blank" rel="noopener">
               Link
             </a>
