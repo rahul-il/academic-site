@@ -49,3 +49,7 @@ subtitle = "(reverse chronological order)"
  # CSS class.
  css_class = ""
 +++
+
+- Some stuff that I've coauthored that is not math (I did the guitar work)
+- A tool I made that has helped thousands of Rutgers students plan their degrees
+- A desk I made for my mom :)
