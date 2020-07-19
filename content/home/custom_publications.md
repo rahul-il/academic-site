@@ -51,7 +51,7 @@ subtitle = "(reverse chronological order)"
 +++
 
 #### Connecting Perebor Conjectures: Towards a Search to Decision Reduction for Minimizing Formulas
-in CCC'20 <br/>
+in CCC'20   
 **_CCC Best Student Paper Award_**<br/>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">PDF</a>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">CCC Talk Video</a>
@@ -67,7 +67,7 @@ in CCC'20 <br/>
 <a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Talk</a>
 
 #### Approaching MCSP from Above and Below: Hardness for a Conditional Variant and AC0[p]
-in ITCS'20<br/>
+in ITCS'20    
 **_ITCS Best Student Paper Award_**<br/>
 <a class="btn btn-outline-primary my-1 mr-1" href=".">PDF</a>
 <a class="btn btn-outline-primary my-1 mr-1" href=".">Slides</a>
@@ -86,6 +86,5 @@ in CSR'19<br/>
 
 #### Unique Rectification in d-Complete Posets: Towards the K-Theory of Kac-Moody Flag Varieties
 with Oliver Pechenik and Michael Zlatin <br/>
-in the Electronic Journal of Combinatorics <br/>
-also in FPSAC '19
+in the Electronic Journal of Combinatorics and in FPSAC '19 <br/>
 <a class="btn btn-outline-primary my-1 mr-1" href=".">PDF</a>
