@@ -49,6 +49,10 @@ title = "Publications"
  css_class = ""
 +++
 
+### Connecting Perebor Conjectures: Toward a Search to Decision Reduction for Formulas
+in CCC'20
+[CCC Proceedings](.) [TOC Journal Submission](.)
+
 <div class="row">
   <div class="col-12">
     <div class="card experience course">
