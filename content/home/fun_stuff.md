@@ -50,6 +50,6 @@ subtitle = "Some things that are not related to research"
  css_class = ""
 +++
 
-- Some stuff that I've coauthored that is not math (I did the guitar work)
-- A tool I made that has helped thousands of Rutgers students plan their degrees
-- A desk I made for my mom :)
+- [Some things](https://soundcloud.com/shattered-serenity) I've coauthored that are not math. (I played the guitar)
+- [A tool](http://www.scarletscheduledesigner.com/) I made that has helped thousands of Rutgers students plan their degrees
+- [A desk](static/img/desk_pics) I recently woodshopped for my mom :)
