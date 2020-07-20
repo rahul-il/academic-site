@@ -53,4 +53,4 @@ subtitle = "Warning: not related to research!"
 - [Some things](https://soundcloud.com/shattered-serenity) I've co-authored that are not math papers
 - [A tool](http://www.scarletscheduledesigner.com/) I made that has helped thousands of Rutgers students plan their degrees
 - [A desk](https://www.rahulilango.com/img/desk_pics.png) I recently made for my mom :)
-- [A recipe](https://cookieandkate.com/black-bean-sweet-potato-enchiladas/) I enjoy making
+- [A recipe](https://cookieandkate.com/black-bean-sweet-potato-enchiladas/) I enjoy when I find time to cook
