@@ -51,8 +51,7 @@ subtitle = "(reverse chronological order)"
 +++
 
 #### Connecting Perebor Conjectures: Towards a Search to Decision Reduction for Minimizing Formulas
-in CCC '20
-**_CCC Best Student Paper Award_**    
+in CCC '20, **_Ronald V. Book Best Student Paper Award_**    
 <a class="btn btn-outline-primary my-1 mr-1" href=".">Draft Journal PDF</a>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">Conference PDF</a>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=ga7VcHRnmFU&list=PL21xYwc6iV0UVy1EKGb5y39UpHjw7nQS1">Talk</a>
@@ -67,8 +66,7 @@ in CCC '20 <br/>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=S4BjTQmdtZ4&list=PL21xYwc6iV0UEaabhztATs6vd42loCoc2&index=5">CCC Talk</a>
 
 #### Approaching MCSP from Above and Below: Hardness for a Conditional Variant and AC0[p]
-in ITCS '20    
-**_ITCS Best Student Paper Award_**   
+in ITCS '20, **_Best Student Paper Award_**   
 <a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/11719/pdf/LIPIcs-ITCS-2020-34.pdf">PDF</a>
 
 #### AC0[p] Lower Bounds Against MCSP via the Coin Problem
