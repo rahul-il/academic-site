@@ -57,7 +57,7 @@ CCC '20 &middot; **Ronald V. Book Best Student Paper Award**  &middot; Invited f
 <a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=ga7VcHRnmFU&list=PL21xYwc6iV0UVy1EKGb5y39UpHjw7nQS1">Talk</a>
 
 
-NP-Hardness of Circuit Minimization for Multi-Output Functions
+NP-Hardness of Circuit Minimization for Multi-Output Functions  
 *Rahul Ilango, Bruno Loff, and Igor Oliveira*  
 CCC '20  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2020/021/">PDF</a>
@@ -80,7 +80,7 @@ The Non-hardness of Approximating Circuit Size
 CSR '19 &middot; to appear in Theory of Computing Systems Special Issue for CSR '19<br/>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2018/173/">PDF</a>
 
-Unique Rectification in d-Complete Posets: Towards the K-Theory of Kac-Moody Flag Varieties
+Unique Rectification in d-Complete Posets: Towards the K-Theory of Kac-Moody Flag Varieties  
 *Rahul Ilango, Oliver Pechenik and Michael Zlatin*  
 Electronic Journal of Combinatorics &middot; Formal Power Series and Algebraic Combinatorics Conference (FPSAC '19)  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.37236/7903">PDF</a>
