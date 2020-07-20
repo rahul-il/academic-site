@@ -51,40 +51,37 @@ subtitle = "(reverse chronological order)"
 +++
 
 #### Connecting Perebor Conjectures: Towards a Search to Decision Reduction for Minimizing Formulas
-in CCC '20   
+in CCC '20
 **_CCC Best Student Paper Award_**    
-<a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">PDF</a>
-<a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">CCC Talk Video</a>
-<a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">CCC Talk Slides</a>
+<a class="btn btn-outline-primary my-1 mr-1" href=".">Draft Journal PDF</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">Conference PDF</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=ga7VcHRnmFU&list=PL21xYwc6iV0UVy1EKGb5y39UpHjw7nQS1">Talk</a>
 
 
 #### NP-Hardness of Circuit Minimization for Multi-Output Functions
 with Bruno Loff and Igor Oliveira <br/>
 in CCC '20 <br/>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">PDF</a>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">TCS+ Talk</a>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">HSE Talk</a>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">CCC Talk</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2020/021/">PDF</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://sites.google.com/site/plustcs/past-talks/20200527rahulilangomit">TCS+ Talk</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=Ezq1QUvaNHY">Loff's HSE Talk</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=S4BjTQmdtZ4&list=PL21xYwc6iV0UEaabhztATs6vd42loCoc2&index=5">CCC Talk</a>
 
 #### Approaching MCSP from Above and Below: Hardness for a Conditional Variant and AC0[p]
 in ITCS '20    
 **_ITCS Best Student Paper Award_**   
-<a class="btn btn-outline-primary my-1 mr-1" href=".">PDF</a>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">Slides</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/11719/pdf/LIPIcs-ITCS-2020-34.pdf">PDF</a>
 
 #### AC0[p] Lower Bounds Against MCSP via the Coin Problem
 with Alexander Golovnev, Russell Impagliazzo, Valentine Kabanets, Antonina Kolokolova, and Avishay Tal<br/>
 in ICALP '19<br/>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">PDF</a>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">Slides</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2019/018/">PDF</a>
 
 #### The Non-hardness of Approximating Circuit Size
 with Eric Allender and Neekon Vafa<br/>
-in CSR '19<br/>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">PDF</a>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">Slides</a>
+in CSR '19 and to appear in Theory of Computing Systems<br/>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2018/173/">PDF</a>
 
 #### Unique Rectification in d-Complete Posets: Towards the K-Theory of Kac-Moody Flag Varieties
 with Oliver Pechenik and Michael Zlatin <br/>
 in the Electronic Journal of Combinatorics and in FPSAC '19 <br/>
-<a class="btn btn-outline-primary my-1 mr-1" href=".">PDF</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.37236/7903">PDF</a>
