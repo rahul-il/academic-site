@@ -51,7 +51,7 @@ subtitle = "(reverse chronological order)"
 +++
 
 #### Connecting Perebor Conjectures: Towards a Search to Decision Reduction for Minimizing Formulas
-in CCC '20, **_Ronald V. Book Best Student Paper Award_**    
+CCC '20 <span class="middot-divider"></span> **_Ronald V. Book Best Student Paper Award_**    
 <a class="btn btn-outline-primary my-1 mr-1" href=".">Draft Journal PDF</a>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">Conference PDF</a>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=ga7VcHRnmFU&list=PL21xYwc6iV0UVy1EKGb5y39UpHjw7nQS1">Talk</a>
