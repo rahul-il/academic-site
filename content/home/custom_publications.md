@@ -49,13 +49,23 @@ subtitle = "(reverse chronological order)"
  # CSS class.
  css_class = ""
 +++
+<p>
+  Connecting Perebor Conjectures: Towards a Search to Decision Reduction for Minimizing Formulas <br/>
+  CCC '20 &middot; <strong>Ronald V. Book Best Student Paper Award</strong><br/>
+  <a class="btn btn-outline-primary my-1 mr-1" href=".">Draft Journal PDF</a>
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">Conference PDF</a>
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=ga7VcHRnmFU&list=PL21xYwc6iV0UVy1EKGb5y39UpHjw7nQS1">Talk</a>
+</p>
 
-#### Connecting Perebor Conjectures: Towards a Search to Decision Reduction for Minimizing Formulas
-CCC '20 &middot; **Ronald V. Book Best Student Paper Award**    
-<a class="btn btn-outline-primary my-1 mr-1" href=".">Draft Journal PDF</a>
-<a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">Conference PDF</a>
-<a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=ga7VcHRnmFU&list=PL21xYwc6iV0UVy1EKGb5y39UpHjw7nQS1">Talk</a>
-
+<p>
+  NP-Hardness of Circuit Minimization for Multi-Output Functions <br/>
+_with Bruno Loff and Igor Oliveira_ <br/>
+CCC '20 <br/>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2020/021/">PDF</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://sites.google.com/site/plustcs/past-talks/20200527rahulilangomit">TCS+ Talk</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=Ezq1QUvaNHY">Loff's HSE Talk</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=S4BjTQmdtZ4&list=PL21xYwc6iV0UEaabhztATs6vd42loCoc2&index=5">CCC Talk</a>
+</p>
 
 #### NP-Hardness of Circuit Minimization for Multi-Output Functions
 _with Bruno Loff and Igor Oliveira_ <br/>
