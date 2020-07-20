@@ -57,7 +57,7 @@ CCC '20 &middot; **Ronald V. Book Best Student Paper Award**  &middot; Invited f
 <a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=ga7VcHRnmFU&list=PL21xYwc6iV0UVy1EKGb5y39UpHjw7nQS1">Talk</a>
 
 
-<h3 style="font-weight:400">NP-Hardness of Circuit Minimization for Multi-Output Functions</h3>  
+### NP-Hardness of Circuit Minimization for Multi-Output Functions    
 Rahul Ilango, Bruno Loff, and Igor Oliveira  
 CCC '20  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2020/021/">PDF</a>
@@ -65,22 +65,22 @@ CCC '20
 <a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=Ezq1QUvaNHY">Loff's HSE Talk</a>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=S4BjTQmdtZ4&list=PL21xYwc6iV0UEaabhztATs6vd42loCoc2&index=5">CCC Talk</a>
 
-<h3 style="font-weight:400">Approaching MCSP from Above and Below: Hardness for a Conditional Variant and AC0[p]</h3>  
+### Approaching MCSP from Above and Below: Hardness for a Conditional Variant and AC0[p]    
 Rahul Ilango  
 ITCS '20 &middot; **Best Student Paper Award**   
 <a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/11719/pdf/LIPIcs-ITCS-2020-34.pdf">PDF</a>
 
-<h3 style="font-weight:400">AC0[p] Lower Bounds Against MCSP via the Coin Problem</h3>    
+### AC0[p] Lower Bounds Against MCSP via the Coin Problem    
 Alexander Golovnev, Rahul Ilango, Russell Impagliazzo, Valentine Kabanets, Antonina Kolokolova, and Avishay Tal
 ICALP '19  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2019/018/">PDF</a>
 
-<h3 style="font-weight:400">The Non-hardness of Approximating Circuit Size</h3>    
+### The Non-hardness of Approximating Circuit Size      
 Eric Allender, Rahul Ilango, and Neekon Vafa  
 CSR '19 &middot; to appear in Theory of Computing Systems Special Issue for CSR '19<br/>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2018/173/">PDF</a>
 
-<h3 style="font-weight:400">Unique Rectification in d-Complete Posets: Towards the K-Theory of Kac-Moody Flag Varieties</h3>     
+### Unique Rectification in d-Complete Posets: Towards the K-Theory of Kac-Moody Flag Varieties       
 Rahul Ilango, Oliver Pechenik and Michael Zlatin  
 Electronic Journal of Combinatorics &middot; Formal Power Series and Algebraic Combinatorics Conference (FPSAC '19)  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.37236/7903">PDF</a>
