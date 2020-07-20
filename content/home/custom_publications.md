@@ -71,7 +71,7 @@ ITCS '20 &middot; **Best Student Paper Award**
 <a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/11719/pdf/LIPIcs-ITCS-2020-34.pdf">PDF</a>
 
 ### AC0[p] Lower Bounds Against MCSP via the Coin Problem    
-Alexander Golovnev, Rahul Ilango, Russell Impagliazzo, Valentine Kabanets, Antonina Kolokolova, and Avishay Tal
+Alexander Golovnev, Rahul Ilango, Russell Impagliazzo, Valentine Kabanets, Antonina Kolokolova, and Avishay Tal  
 ICALP '19  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2019/018/">PDF</a>
 
