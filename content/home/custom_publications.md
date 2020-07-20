@@ -64,6 +64,8 @@ CCC '20
 <a class="btn btn-outline-primary my-1 mr-1" href="https://sites.google.com/site/plustcs/past-talks/20200527rahulilangomit">TCS+ Talk</a>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=Ezq1QUvaNHY">Loff's HSE Talk</a>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=S4BjTQmdtZ4&list=PL21xYwc6iV0UEaabhztATs6vd42loCoc2&index=5">CCC Talk</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.scottaaronson.com/blog/?p=4635">Mention on Scott A.'s Blog</a>
+
 
 ### Approaching MCSP from Above and Below: Hardness for a Conditional Variant and AC0[p]    
 ###### Rahul Ilango  
