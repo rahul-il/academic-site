@@ -70,16 +70,16 @@ in ITCS '20, **_Best Student Paper Award_**
 <a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/11719/pdf/LIPIcs-ITCS-2020-34.pdf">PDF</a>
 
 #### AC0[p] Lower Bounds Against MCSP via the Coin Problem
-with Alexander Golovnev, Russell Impagliazzo, Valentine Kabanets, Antonina Kolokolova, and Avishay Tal<br/>
-in ICALP '19<br/>
+_with Alexander Golovnev, Russell Impagliazzo, Valentine Kabanets, Antonina Kolokolova, and Avishay Tal_ <br/>
+ICALP '19<br/>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2019/018/">PDF</a>
 
 #### The Non-hardness of Approximating Circuit Size
-with Eric Allender and Neekon Vafa<br/>
-in CSR '19 and to appear in Theory of Computing Systems<br/>
+_with Eric Allender and Neekon Vafa_ <br/>
+CSR '19 &middot; to appear in Theory of Computing Systems<br/>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2018/173/">PDF</a>
 
 #### Unique Rectification in d-Complete Posets: Towards the K-Theory of Kac-Moody Flag Varieties
-with Oliver Pechenik and Michael Zlatin <br/>
-in the Electronic Journal of Combinatorics and in FPSAC '19 <br/>
+_with Oliver Pechenik and Michael Zlatin_ <br/>
+Electronic Journal of Combinatorics &middot; Formal Power Series and Algebraic Combinatorics Conference (FPSAC '19) <br/>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.37236/7903">PDF</a>
