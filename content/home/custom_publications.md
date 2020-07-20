@@ -51,15 +51,15 @@ subtitle = "(reverse chronological order)"
 +++
 
 #### Connecting Perebor Conjectures: Towards a Search to Decision Reduction for Minimizing Formulas
-CCC '20 &middot; **_Ronald V. Book Best Student Paper Award_**    
+CCC '20 &middot; **Ronald V. Book Best Student Paper Award**    
 <a class="btn btn-outline-primary my-1 mr-1" href=".">Draft Journal PDF</a>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://drops.dagstuhl.de/opus/volltexte/2020/12583/">Conference PDF</a>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=ga7VcHRnmFU&list=PL21xYwc6iV0UVy1EKGb5y39UpHjw7nQS1">Talk</a>
 
 
 #### NP-Hardness of Circuit Minimization for Multi-Output Functions
-with Bruno Loff and Igor Oliveira <br/>
-in CCC '20 <br/>
+_with Bruno Loff and Igor Oliveira_ <br/>
+CCC '20 <br/>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2020/021/">PDF</a>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://sites.google.com/site/plustcs/past-talks/20200527rahulilangomit">TCS+ Talk</a>
 <a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=Ezq1QUvaNHY">Loff's HSE Talk</a>
