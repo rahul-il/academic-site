@@ -59,7 +59,7 @@ title = "My Research Focus"
     <br/>
   </div>
   <div class="col-12 col-lg-6">
-    <p>My research so far has focused understanding the complexity of a problem called MCSP. While MCSP has been studied since at least the 1950s, it remains quite mysterious, evading the kind of understanding we have for thousands of other problems in complexity theory. Even so, researchers have discovered fascinating connections between MCSP and other areas in Theoretical Computer Science.</p>
+    <p>My research so far has focused on understanding the complexity of a problem called MCSP. While MCSP has been studied since at least the 1950s, it remains quite mysterious, evading the kind of understanding we have for thousands of other problems in complexity theory. Even so, researchers have discovered fascinating connections between MCSP and other areas in Theoretical Computer Science.</p>
     <p>For example, MCSP could be a "universal attack on cryptography": if you found a fast algorithm for MCSP, you could use it to break <i>any</i> type of cryptography. Thus, we expect (but do not know) that MCSP is not an easy problem to solve. My research is working towards proving MCSP is hard, which is a necessary step towards attaining <i>provably</i> secure cryptography.</p>
   </div>
 </div>
