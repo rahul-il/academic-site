@@ -49,6 +49,11 @@ subtitle = "(reverse chronological order)"
  # CSS class.
  css_class = "pub_list"
 +++
+### Constant Depth Formula and Partial Function Versions of MCSP are Hard
+###### Rahul Ilango  
+FOCS '20 &middot; **Best Student Paper Award**  &middot;   
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.rahulilango.com/papers/FOCS2020.pdf">Full Vesion PDF</a>
+
 ### Connecting Perebor Conjectures: Towards a Search to Decision Reduction for Minimizing Formulas
 ###### Rahul Ilango  
 CCC '20 &middot; **Best Student Paper Award**  &middot; Invited for TOC Special Issue for CCC'20  

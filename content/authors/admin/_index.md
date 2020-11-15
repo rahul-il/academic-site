@@ -63,7 +63,7 @@ user_groups:
 - Visitors
 ---
 
-I am a first-year PhD student studying Theoretical Computer Science at MIT advised by [Ryan Williams](https://people.csail.mit.edu/rrw/). Before this, I was an  undergraduate at Rutgers University, where I was lucky enough to discuss research and learn from [Eric Allender](https://www.cs.rutgers.edu/~allender/) and [Michael Saks](https://sites.math.rutgers.edu/~saks/). I also participated twice in the [DIMACS REU program](https://reu.dimacs.rutgers.edu/).
+I am a second-year PhD student studying Theoretical Computer Science at MIT advised by [Ryan Williams](https://people.csail.mit.edu/rrw/). Before this, I was an  undergraduate at Rutgers University, where I was lucky enough to discuss research and learn from [Eric Allender](https://www.cs.rutgers.edu/~allender/) and [Michael Saks](https://sites.math.rutgers.edu/~saks/). I also participated twice in the [DIMACS REU program](https://reu.dimacs.rutgers.edu/).
 
 Most of my research is in the field of Computational Complexity Theory, which quantifies the amount of resources --- like time and hardware --- needed to solve computational tasks, like finding the fastest route from point A to point B on a map.
 
