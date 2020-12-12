@@ -52,7 +52,7 @@ subtitle = "(reverse chronological order)"
 ### Constant Depth Formula and Partial Function Versions of MCSP are Hard
 ###### Rahul Ilango  
 FOCS '20 &middot; **Best Student Paper Award**  &middot;   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://www.rahulilango.com/papers/FOCS2020.pdf">Full Vesion PDF</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2020/183/">Draft Jounral PDF</a>
 
 ### Connecting Perebor Conjectures: Towards a Search to Decision Reduction for Minimizing Formulas
 ###### Rahul Ilango  
