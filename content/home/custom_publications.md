@@ -61,35 +61,34 @@ FOCS '23
 
 ### Indistinguishability Obfuscation, Range Avoidance, and Bounded Arithmetic
 ###### Rahul Ilango, Jiatu Li, and Ryan Williams
-STOC '23
+STOC '23  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2023/038/">PDF</a>
 
 ### NP-Hardness of Approximating Meta-Complexity: A Cryptographic Approach
 ###### Yizhi Huang, Rahul Ilango, Hanlin Ren
-STOC '23
+STOC '23  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2023/046">PDF</a>
 
 ### A Duality Between One-Way Functions and Average-Case Symmetry of Information
 ###### Shuichi Hirahara, Rahul Ilango, Zhenjian Lu, Mikito Nanashima, and Igor Carboni Oliveira
-STOC '23
+STOC '23  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2023/035/">PDF</a>
 
 ### Robustness of average-case meta-complexity via pseudorandomness
 ###### Rahul Ilango, Hanlin Ren, and Rahul Santhanam 
-STOC '22
+STOC '22  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2021/082/">PDF</a>
 
 ### The Minimum Formula Size Problem is (ETH) Hard
 ###### Rahul Ilango 
-FOCS '21
+FOCS '21  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://www.rahulilango.com/papers/MFSP-hard.pdf">PDF</a>
 
 
 ### Hardness of Constant-Round Communication Complexity
 ###### Shuichi Hirahara, Rahul Ilango, and Bruno Loff  
-CCC '21
+CCC '21  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2021/030/">PDF</a>
-
 
 ### Constant Depth Formula and Partial Function Versions of MCSP are Hard
 ###### Rahul Ilango  
