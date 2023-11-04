@@ -55,7 +55,7 @@ FOCS '23
 
 ### Towards Separating Computational and Statistical Differential Privacy
 ###### Badih Ghazi, Rahul Ilango, Pritish Kamath, Ravi Kumar, Pasin Manurangsi
-FOCS '23
+FOCS '23  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2301.00104">PDF</a>
 
 
