@@ -74,7 +74,7 @@ STOC '23
 STOC '23  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2023/035/">PDF</a>
 
-### Robustness of average-case meta-complexity via pseudorandomness
+### Robustness of Average-Case Meta-complexity via Pseudorandomness
 ###### Rahul Ilango, Hanlin Ren, and Rahul Santhanam 
 STOC '22  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2021/082/">PDF</a>
