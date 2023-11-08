@@ -51,7 +51,7 @@ subtitle = "(reverse chronological order)"
 +++
 ### SAT Reduces to the Minimum Circuit Size Problem with a Random Oracle
 ###### Rahul Ilango
-FOCS '23  &middot; **Best Student Paper Award** 
+FOCS '23  &middot; **Best Student Paper Award**  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2023/165/">PDF</a>
 
 
