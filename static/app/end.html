@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .links {
+            list-style-type: none;
+            padding: 0;
+            max-width: 400px;
+            display: block;
+        }
+        .links li {
+            margin: 10px 0;
+        }
+        .links a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .thank-you {
+            font-style: italic;
+            color: #555;
+            font-size: 1em;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>The End!</h1>
+    <p>
+        Thank you for reaching the end! I hope you learned something :)
+    </p>
+    <p>For more information about these topics, try these Wikipedia pages:
+    </p>
+    <ul class="links">
+        <li><a href="https://en.wikipedia.org/wiki/Four_color_theorem" target="_blank">Four Color Theorem</a></li>
+        <li><a href="https://simple.wikipedia.org/wiki/P_versus_NP_problem" target="_blank">P versus NP Problem</a> </li>
+        <li><a href="https://en.wikipedia.org/wiki/Zero-knowledge_proof" target="_blank">Zero-Knowledge Proofs</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Commitment_scheme">Commitment Schemes</a></li>
+    </ul>
+
+    <p class="thank-you">
+        Special thanks to Neekon J. Vafa for his help squashing bugs, 
+        and Avi Wigderson for his suggestions on improving the presentation.
+    </p>
+    
+
+    <p>
+        For fun, you can draw on this and get surpringsly pretty random colors:
+    </p>
+
+    <script src='turf.min.js'></script>
+
+    <interactive-canvas mode="draw" coloring-mode="random"></interactive-canvas>
+    <script type="module" src="interactiveCanvasElement.js"></script>
+
+   
+
+
+
+    
+</body>
+</html>

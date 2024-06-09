@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>So far, every map needed just three colors. Can you construct a map which requires four?</p>
+    <script src='turf.min.js'></script>
+
+    <interactive-canvas mode="draw" coloring-mode="three"></interactive-canvas>
+    <div id="hints">
+        
+        <div class="row">
+            <a href="#hint-list" id="hint-button" class="button-link">Hint</a>
+        </div>
+        <ul id="hint-list">
+        </ul>
+    </div>
+    <div class="footer" id="footer" style="display:none">
+        <p id="graph-coloring-status"></p>
+        <div id="nextPage" style="display: none"><a href="wus.html" class="button-link">Next Challenge!</a></div>
+    </div>
+
+    <script type="module" src="interactiveCanvasElement.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            function highlightElement(element){
+                const oldHighlights = document.querySelectorAll('.highlight');
+                for (const old of oldHighlights) {
+                    old.classList.remove('highlight')
+                }
+
+                element.classList.add('highlight');
+                element.scrollIntoView({ behavior: 'smooth', block: 'end' });
+                
+
+                setTimeout(() => {
+                        element.classList.remove('highlight');
+                        }, 1000); // Remove highlight after 2 seconds
+
+            }
+
+
+
+            const canvasContainerElement = document.querySelector('interactive-canvas').firstElementChild;
+            const statusElement = document.getElementById('graph-coloring-status');
+
+            const hintButton = document.getElementById('hint-button');
+            const hintList = document.getElementById('hint-list');
+
+            const hintDetails = ['You only need four regions', 'I drew the first shape', 'I drew the first two shapes', 'I drew the first three shapes'];
+            const hintTitles = ['Hint', 'Another Hint', 'Another Hint', 'Another Hint', 'Reveal It'];
+            const hintMapLoads = [null, 'd3-1', 'd3-2', 'd3-3', 'd3-4']
+            let hintIndex = 0;
+
+
+            hintButton.addEventListener('click', function(event) {
+
+                
+                if (hintIndex < hintDetails.length){
+                    hintList.innerHTML = `<li>${hintDetails[hintIndex]}</li>` + hintList.innerHTML;
+                    const child =  hintList.firstElementChild;
+                    if(child){
+                        highlightElement(child)
+                    }
+                   
+                }
+
+                if (hintIndex < hintMapLoads.length && hintMapLoads[hintIndex]){
+                    const map = hintMapLoads[hintIndex]
+                    canvasContainerElement.dispatchEvent(new CustomEvent('loadMap', {
+                        detail: { map }
+                    }));
+                }
+
+                hintIndex++;
+                if (hintIndex < hintTitles.length){
+                    hintButton.innerText = hintTitles[hintIndex];
+                } else{
+                    hintButton.style.display = 'none';
+                }
+
+                
+
+            });
+
+
+
+            canvasContainerElement.addEventListener('graphColoringChanged', (event) => {
+                const { isColored, numberOfColors, polygonCount } = event.detail;
+                const nextPageElement = document.getElementById('nextPage')
+                const footerElement = document.getElementById('footer');
+
+
+                if (!isColored) {
+                    footerElement.style.display = 'flex';
+                    if (polygonCount == 4){
+                        statusElement.innerHTML = `Good job! You did it with <b>4</b> regions, the least possible!`;
+                        if (nextPageElement.style.display != 'block'){
+                            nextPageElement.style.display = 'block';
+                            highlightElement(nextPageElement);
+                            hintButton.style.display = 'none';
+                        }
+                        
+                    } else{
+                        statusElement.innerHTML = `Good job! Now try doing it with fewer than <b>${polygonCount}</b> regions`;                
+                        highlightElement(statusElement);
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

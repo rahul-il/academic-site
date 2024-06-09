@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>So far, every map needed just four colors. Can you construct a map which requires five?</p>
+    <script src='turf.min.js'></script>
+
+    <interactive-canvas mode="draw" coloring-mode="four"></interactive-canvas>
+    <div class="small" style="margin: 2px;">Warning: difficult! So skip after trying a lot.</div>
+    <a  href="open.html" class="button-link">Skip</a>
+    <p id="graph-coloring-status"></p>
+      
+
+
+    <script type="module" src="interactiveCanvasElement.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hintClicked = false;
+            const canvasContainerElement = document.querySelector('interactive-canvas').firstElementChild;
+            const statusElement = document.getElementById('graph-coloring-status');
+            function highlightElement(element){
+                element.classList.add('highlight');
+                element.scrollIntoView({ behavior: 'smooth', block: 'end' });
+                
+
+                setTimeout(() => {
+                        element.classList.remove('highlight');
+                        }, 1000); // Remove highlight after 2 seconds
+
+            }
+
+
+
+            canvasContainerElement.addEventListener('graphColoringChanged', (event) => {
+                const { isColored, numberOfColors } = event.detail;
+
+                if (!isColored) {
+                    statusElement.textContent = `Woah, you made a map where no 4-Coloring exists! This is likely caused by rounding errors in the code. Click on skip to proceed.`;
+                    highlightElement(statusElement);
+                }
+                
+            });
+        });
+    </script>
+</body>
+</html>

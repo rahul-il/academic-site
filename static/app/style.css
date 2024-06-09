@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@keyframes highlightAnimation {
+    0% {
+        outline: 3px solid #4CAF50;
+      }
+    100% {
+      outline: 0 solid #4CAF50;
+    }
+  }
+
+  .highlight {
+    outline-offset: 2px;
+    animation: highlightAnimation 2s forwards;
+  }
+
+
+/* .highlight {
+    outline-offset: 2px;
+    outline-width: 4px;
+    outline-color: ;
+    outline-style: solid;
+    transition: all linear 2s;
+    /* box-shadow: 0 0 10px #4CAF50;
+    transition: outline 1s ease-in-out, outline-offset 1s ease-in-out, box-shadow 1s ease-in-out; */
+} */
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#canvas {
+    border: 1px solid black;
+}
+button {
+    margin: 10px;
+}
+#error-message{
+    max-width: 250px;
+}
+p{
+    font-size: 1.2em;
+    max-width: min(400px, 80%)
+}
+.footer{
+    position:sticky;
+    bottom:0%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:beige;
+}
+.footer p{
+    font-size: 1.1em;
+}
+.center{
+    text-align: center;
+}
+
+small{
+    max-width: 400px;
+}
+.small{
+    max-width: 400px;
+}
+
+.small-text{
+    font-size: 15px;
+    margin: 8px;
+}
+
+#hint-button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the buttons appear inline */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border-radius: 12px; /* Rounded corners */
+    transition-duration: 0.4s; /* Transition effects */
+}
+
+.small-button-link {
+    background-color: black; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 10px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the buttons appear inline */
+    font-size: 16px; /* Increase font size */
+    margin: 3px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition-duration: 0.4s; /* Transition effects */
+}
+.small-button-link:hover {
+    background-color: white; /* White background */
+    color: black; /* Black text */
+    border: 2px solid black; /* Green border */
+}
+
+button {
+    background-color: black; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 10px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the buttons appear inline */
+    font-size: 14px; /* Increase font size */
+    margin: 3px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition-duration: 0.4s; /* Transition effects */
+}
+button:hover {
+    background-color: white; /* White background */
+    color: black; /* Black text */
+    border: 2px solid black; /* Green border */
+}
+
+
+.button-link {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the buttons appear inline */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border-radius: 12px; /* Rounded corners */
+    transition-duration: 0.4s; /* Transition effects */
+}
+.button-link:hover {
+    background-color: white; /* White background */
+    color: black; /* Black text */
+    border: 2px solid #4CAF50; /* Green border */
+}

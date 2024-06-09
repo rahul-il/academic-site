@@ -1,0 +1,376 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .collapsible {
+            cursor: pointer;
+            display: inline-block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .content {
+            display: none;
+            max-width: 400px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+            padding: 10px;
+            font-size: 12px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: none;
+            max-width: 400px;
+            padding: 0;
+            
+        }
+        
+        ol {
+            max-width: 400px;
+            font-size: 1.2rem;
+            list-style-type: none;
+        }
+        li {
+            position: relative;
+            margin: 5px;
+            margin-left: 20px;
+        }
+        .plus::before {
+            content: '+ ';
+        }
+        .expanded::before {
+            content: '- ';
+        }
+        .color-reveal{
+            margin-left: 30px;
+            margin-bottom: 0px;
+            font-size: .8em;
+        }
+        .current-step::before {
+            content: '➔ '; /* Thicker arrow character */
+            position: absolute;
+            left: -30px;
+        }
+        table {
+           max-width: 400px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-size: 16px;
+        }
+        td {
+            font-size: 14px;
+        }
+        .color-symbol {
+            font-size: 40px;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var contents = document.getElementsByClassName('content');
+            for (var i = 0; i < contents.length; i++) {
+                contents[i].style.display = "none";
+            }
+        });
+
+        function toggleContent(id, element) {
+            var content = document.getElementById(id);
+            if (content.style.display == "none") {
+                content.style.display = "block";
+                element.classList.remove('plus');
+                element.classList.add('expanded');
+            } else {
+                content.style.display = "none";
+                element.classList.remove('expanded');
+                element.classList.add('plus');
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <script src='turf.min.js'></script>
+
+    <p>
+        One of the most beautiful and surprising results in mathematics is that
+         I actually CAN convince you that three colors suffice without giving away the solution!
+    </p>
+
+
+    <p>
+        I'll illustrate via a small example: </p>
+
+    <div class="row" style="max-width: 100%;">
+        <div class="column">
+            <ol id="step-list">
+                <li id="step-1" class="current-step">
+                    Step 1. I place a <span style="color: #7F58AF;" class="color-dot">&#9679;</span>, <span style="color: #64C5EB;" class="color-dot">&#9679;</span>, or <span class="color-dot" style="color: #E84D8A;">&#9679;</span>  color dot on each reigon, but then hide it under a post-it 
+                </li>
+                <li id="step-2" style="display: none;">Step 2.  You randomly click any two bordering regions, and I pull off their post-its</li>
+                <li id="step-3" style="display: none;">Step 3.  You check that the revealed colors are different</li>
+                <li id="step-4" style="display: none;">Step 4.  We repeat until you are satisfied. (And I reshuffle the colors)</li>
+            </ol>
+            <div class="row">
+                <button id="next-step-button">See it & go to step 2</button>
+                <button id="sat-button" style="display: none">I'm satisfied (or confused)</button>
+            </div>
+        </div>
+        <interactive-canvas mode="zk-postit" coloring-mode="three" preset-map="bpi" style="display: none" id="ic"></interactive-canvas>
+    </div>
+
+    <script type="module" src="interactiveCanvasElement.js"></script>
+    
+
+
+
+<div id = "part-2" class="column" style="display: none">
+
+
+    <p>
+        This is an example of a "zero knowledge proof," which proves something is true 
+        while somehow also not revealing anything. 
+        Besides being cool math, zero knowledge proofs have many real-world applications.
+    </p>
+
+    <p>You may have a few questions. Learn more by clicking on these:</p>
+
+    <ul>
+        <li>
+            <span class="collapsible plus" onclick="toggleContent('content1', this)">Question: Why does this hide the solution? Can't you piece it together?</span>
+            <div id="content1" class="content">
+                <p><strong>Answer:</strong> Each time I color the map, I will randomly swap all the colors. This way, each time we do all the steps, you will just see two random colors. Thus, there is nothing consistent to piece together.</p>
+            </div>
+        </li>
+
+        <li>
+            <span class="collapsible plus" onclick="toggleContent('content2', this)">Question: Why should this convince you?</span>
+            <div id="content2" class="content">
+                <p><strong>Answer:</strong> If three colors do not suffice, then there will always be one pair of touching regions with the same color. You have a small chance of picking this pair each time. By repeating the process enough times, the probability that you never catch me becomes smaller than, say, getting struck by lighting.</p>
+            </div>
+        </li>
+
+        <li>
+            <span class="collapsible plus" onclick="toggleContent('content3', this)">Question: Why does this reveal "nothing"?</span>
+            <div id="content3" class="content">
+                <p><strong>Answer:</strong> Surprisingly, there is a mathematical definition (by Goldwasser, Micali, and Rackoff) of "not learning anything." Goldreich, Micali, and Wigderson showed that the process above meets this definition.</p>
+            </div>
+        </li>
+        <li>
+            <span class="collapsible plus" onclick="toggleContent('content4', this)">Question: How do you do this in the digital world, without post-it notes?</span>
+            <div id="content4" class="content">
+                    
+                    <p>
+                        <strong>Answer:</strong> 
+                        Instead of using post-it notes, we can instead encode each color using numbers in an unusual way. For example (slightly simplifying), we can randomly pick a number with a certain amount (depending on the color) of primes divide it:
+                    </p>
+                    <small>(Don't worry if you don't remember what a prime number is. All you need to know is that table assigns a unique color to every number.)</small>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Color</th>
+                                <th>Encoding: a Number with __ Primes Dividing It</th>
+                                <th>Example</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="color-symbol" style="color: #7F58AF;">&#9679;</span></td>
+                                <td>2 or fewer</td>
+                                <td><span style="color: #7F58AF; font-weight: bold;">10</span> <br>= 2 x 5</td>
+                            </tr>
+                            <tr>
+                                <td><span class="color-symbol" style="color: #64C5EB;">&#9679;</span></td>
+                                <td>Exactly 3</td>
+                                <td><span style="color: #64C5EB; font-weight: bold;">30</span> <br>= 2 x 3 x 5</td>
+                            </tr>
+                            <tr>
+                                <td><span class="color-symbol" style="color: #E84D8A;">&#9679;</span></td>
+                                <td>4 or more</td>
+                                <td><span style="color: #E84D8A; font-weight: bold;">60</span> <br>= 2 x 2 x 3 x 5</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>
+                        There are two important properties of this encoding.
+                    </p>
+                    <p> <b>1) Revealability.</b> If I give you a number and the list of primes dividing it, you can easily tell its color.
+                        For instance, 13793561 = 293 x 263 x 179, has three prime divisors, so it encodes <span class="color-symbol" style="color: #64C5EB;">&#9679;</span>.
+                    </p> 
+
+                    <p><b>2) Hiding.</b> If I give you just the number (without the list of prime divisors) like 33793561,
+                        it is hard to tell what color it is.
+                    </p>
+                    <div class="small">
+                        <small>
+                            (This is closely related to the hardness of "factorizing" a number, which is the basis of the RSA cryptosystem.)
+                        </small> 
+                    </div>
+                   <p> Hit this checkbox to see this method in action on the example above: <input type="checkbox" id="commit-box" ></p>
+            </div>
+        </li>
+    </ul>
+
+        <a href="end.html" class="button-link">THE END (almost)</a>
+</div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const steps = {
+                'zk-postit': [
+                                    `                    Step 1. I put a <span style="color: #7F58AF;" class="color-dot">&#9679;</span>, <span style="color: #64C5EB;" class="color-dot">&#9679;</span>, or <span class="color-dot" style="color: #E84D8A;">&#9679;</span> color dot on each region, but hide it under a post-it`,
+                                    `Step 2.  You click any two bordering regions, and I pull off their post-its`,
+                                    `Step 3.  You check that the revealed colors are different`,
+                                    `Step 4.  We repeat until you are satisfied. (But I reshuffle the colors each time)`,
+                                ],
+                'zk': [
+                    `Step 1.  I show an encoded way to color the map`,
+                    `Step 2.  You click any two bordering regions, and I reveal their colors (via the primes)`,
+                    `Step 3.  You check that the colors are different`,
+                    `Step 4.  We repeat until you are satisfied.`,
+                ]
+            }
+
+            function highlightElement(element, stop='end'){
+                const oldHighlights = document.querySelectorAll('.highlight');
+                for (const old of oldHighlights) {
+                    old.classList.remove('highlight')
+                }
+                
+                element.classList.add('highlight');
+                element.scrollIntoView({ behavior: 'smooth', block: stop });
+                
+
+                setTimeout(() => {
+                        element.classList.remove('highlight');
+                        }, 1000); // Remove highlight after 2 seconds
+
+            }
+
+
+            let currentStep = 0;
+            let satisfied = false;
+            let mode = 'zk-postit';
+            let reveals = [];
+
+            const canvasContainerElement = document.querySelector('interactive-canvas').firstElementChild;
+            const ic = document.getElementById('ic');
+            const satButton = document.getElementById('sat-button');
+            const stepList = document.getElementById('step-list');
+            const statusElement = document.getElementById('coloring-status');
+
+            const buttonTexts = ['See it & go to step 2', null, "Yep, they're different", 'Again!']
+            const nextButton = document.getElementById('next-step-button')
+
+
+            function updateBasedOnStep(highlight){
+                ic.style.display = currentStep > 0 ? 'block' : 'none';
+                satButton.style.display = (! satisfied) && currentStep == steps[mode].length - 1 ? 'inline-block' : 'none';
+                
+                let stepsHTML = [];
+                for (let i = 0; i <= currentStep; i++){
+                    const class_ = currentStep === i ? 'current-step' : '';
+                    const text = steps[mode][i];
+                    stepsHTML.push(`<li class="${class_}">${text}</li>`)
+
+                    if (i == 1 && mode === 'zk'){
+                        for (let reveal of reveals){
+                            stepsHTML.push(`
+                                <div class='color-reveal'>
+                                    ${reveal.product} = ${reveal.encoding.join(' x ')} 
+                                    so it is 
+                                    <span style="color: ${reveal.color}; font-size: 25px;">&#9679;</span>
+                                </div>`)
+                        }
+                    }
+                }
+                stepList.innerHTML = stepsHTML.join(' ');
+                const lastChild = stepList.lastElementChild;
+                if (lastChild && highlight){
+                    highlightElement(lastChild, stop='center');
+                }
+
+                if (mode === 'zk' && currentStep < 2 && reveals.length === 1){
+
+                    const revealElements = document.querySelectorAll('.color-reveal');
+                    if (revealElements.length === 1){
+                        highlightElement(revealElements[0], stop='center')
+                    }
+                }
+
+                const buttonText = buttonTexts[currentStep];
+                if (buttonText){
+                        nextButton.style.display = 'inline-block';
+                        nextButton.innerText= buttonText;
+                } else {
+                    nextButton.style.display = 'none';
+                }
+            }
+
+            document.getElementById('next-step-button').addEventListener('click', () => {
+
+                if (currentStep == steps[mode].length -1){
+                    canvasContainerElement.dispatchEvent(new CustomEvent('restartZk', { }));
+                }
+                currentStep = currentStep < steps[mode].length -1 ? currentStep + 1 : 0;
+                updateBasedOnStep(true)
+
+            });
+
+            satButton.addEventListener('click', () => {
+                satisfied = true;
+                satButton.style.display = 'none';
+                const part2 = document.getElementById('part-2')
+                part2.style.display = 'flex';
+                highlightElement(part2, stop='start')
+                
+            });
+
+
+            canvasContainerElement.addEventListener('colorRevealed', (event) => {
+                const newReveals = event.detail;
+                reveals = newReveals
+                let highlight = false;
+                if (reveals.length >= 2 && currentStep < 2){
+                    currentStep  =2;
+                    highlight =true;
+                }
+                updateBasedOnStep(highlight);
+
+            });
+
+            const checkbox = document.getElementById('commit-box');
+            checkbox.checked = false;
+            checkbox.addEventListener('change', function() {
+                currentStep = 0;
+                mode = checkbox.checked ? 'zk' : 'zk-postit';
+                reveals = [];
+                canvasContainerElement.dispatchEvent(new CustomEvent('setZkMode', {detail: { 'mode': mode} }));
+                updateBasedOnStep(true);
+            });
+
+
+        });
+    </script>
+
+
+    
+</body>
+</html>
+

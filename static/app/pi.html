@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Color the map so no two physically bordering regions have the same color</p>
+    <div class="small-text">(Points don't count as borders)</div>
+
+    <script src='turf.min.js'></script>
+
+    <!-- sa uk pi af us wus nsa  -->
+
+    <interactive-canvas mode="color" coloring-mode="four" preset-map="pi"></interactive-canvas>
+    <div class="footer" id="footer" style="display:none">
+        <p id="graph-coloring-status"></p>
+        <div id="nextPage" style="display: none"><a href="drawthree.html" class="button-link">Next Challenge!</a></div>
+    </div>
+
+    
+
+
+    <script type="module" src="interactiveCanvasElement.js"></script>
+    <script>
+        function highlightElement(element){
+            const oldHighlights = document.querySelectorAll('.highlight');
+            for (const old of oldHighlights) {
+                old.classList.remove('highlight')
+            }
+
+            element.classList.add('highlight');
+            element.scrollIntoView({ behavior: 'smooth', block: 'end' });
+            
+
+            setTimeout(() => {
+                    element.classList.remove('highlight');
+                    }, 1000); // Remove highlight after 2 seconds
+
+        }
+
+        let minColors = 5;
+        document.addEventListener('DOMContentLoaded', () => {
+            const canvasContainerElement = document.querySelector('interactive-canvas').firstElementChild;
+            const statusElement = document.getElementById('graph-coloring-status');
+            const nextPageElement = document.getElementById('nextPage')
+            const footerElement = document.getElementById('footer')
+
+
+            canvasContainerElement.addEventListener('graphColoringChanged', (event) => {
+                const { isColored, numberOfColors } = event.detail;
+
+                if (!isColored) return;
+                if (numberOfColors >= minColors) return;
+
+                minColors = numberOfColors;
+                footerElement.style.display = 'flex';
+                const newText = minColors <= 2 ? `Nice work! Two colors are the least for this map.`: `Great job! Now try to do it with less than ${numberOfColors} colors`;
+                statusElement.textContent = newText;
+                nextPageElement.style.display  = minColors <= 2 ? 'block' : 'none';
+                const elementToHighlight = minColors <= 2 ? nextPageElement : statusElement
+                highlightElement(elementToHighlight)
+                
+            });
+        });
+    </script>
+</body>
+</html>
