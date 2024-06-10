@@ -247,14 +247,15 @@
                 ]
             }
 
-            function highlightElement(element, stop='end'){
+            function highlightElement(element, stop='end', customScrollElement = null){
                 const oldHighlights = document.querySelectorAll('.highlight');
                 for (const old of oldHighlights) {
                     old.classList.remove('highlight')
                 }
                 
                 element.classList.add('highlight');
-                element.scrollIntoView({ behavior: 'smooth', block: stop });
+                const scrollElement = customScrollElement ? customScrollElement: element;
+                scrollElement.scrollIntoView({ behavior: 'smooth', block: stop });
                 
 
                 setTimeout(() => {
@@ -303,14 +304,15 @@
                 stepList.innerHTML = stepsHTML.join(' ');
                 const lastChild = stepList.lastElementChild;
                 if (lastChild && highlight){
-                    highlightElement(lastChild, stop='center');
+                    const customScrollElement =  currentStep > 0 ? canvasContainerElement : null;
+                    highlightElement(lastChild, stop='start', customScrollElement);
                 }
 
                 if (mode === 'zk' && currentStep < 2 && reveals.length === 1){
 
                     const revealElements = document.querySelectorAll('.color-reveal');
                     if (revealElements.length === 1){
-                        highlightElement(revealElements[0], stop='center')
+                        highlightElement(revealElements[0], stop='start', customScrollElement = canvasContainerElement)
                     }
                 }
 
