@@ -305,14 +305,15 @@
                 const lastChild = stepList.lastElementChild;
                 if (lastChild && highlight){
                     const customScrollElement =  currentStep > 0 ? canvasContainerElement : null;
-                    highlightElement(lastChild, stop='start', customScrollElement);
+                    const stop = currentStep > 0 ? 'end' : 'start'
+                    highlightElement(lastChild, stop, customScrollElement);
                 }
 
                 if (mode === 'zk' && currentStep < 2 && reveals.length === 1){
 
                     const revealElements = document.querySelectorAll('.color-reveal');
                     if (revealElements.length === 1){
-                        highlightElement(revealElements[0], stop='start', customScrollElement = canvasContainerElement)
+                        highlightElement(revealElements[0], stop='end', customScrollElement = canvasContainerElement)
                     }
                 }
 
