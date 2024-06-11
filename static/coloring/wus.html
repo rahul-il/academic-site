@@ -50,7 +50,7 @@
 
                 minColors = numberOfColors;
                 footerElement.style.display = 'flex';
-                const newText = minColors <= 4 ? `Nice work! Four colors are the least for this map.`: `You've done it using ${numberOfColors} colors. Can you do it with less?`;
+                const newText = minColors <= 4 ? `Nice work! Four colors are the least for this map.`: `You've done it using ${numberOfColors} colors. Can you do it with fewer?`;
                 statusElement.textContent = newText;
                 nextPageElement.style.display  = minColors <= 4 ? 'block' : 'none';
                 highlightElement(nextPageElement);
