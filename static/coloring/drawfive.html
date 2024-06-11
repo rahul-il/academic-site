@@ -53,7 +53,7 @@
                 const { isColored, numberOfColors } = event.detail;
 
                 if (!isColored) {
-                    statusElement.textContent = `Woah, you made a map where no 4-Coloring exists! This is likely caused by rounding errors in the code. Click on skip to proceed.`;
+                    statusElement.textContent = `The map is taking too long to process on your device. Click clear, or click on skip to proceed.`;
                     highlightElement(statusElement);
                 }
                 

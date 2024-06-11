@@ -858,6 +858,10 @@ export class InteractiveCanvas {
             }
         } catch (error) {
             // this.errorMessageElement.textContent = error.message;
+            if (error.message === 'Graph coloring timed out!'){
+                alert('The map is taking too long to process on your device. Try hitting clear.')
+            }
+            console.log(error.message)
             for (let i = 0; i < this.polygons.length; i++) {
                 this.polygons[i].properties.color = '#FFFFFF';
             }
@@ -898,7 +902,8 @@ export class InteractiveCanvas {
 
     colorGraph(adjMatrix, maxColors) {
         const n = adjMatrix.length;
-        const result = new Array(n).fill(-1);
+        let result = new Array(n).fill(-1);
+        const startTime = Date.now();
 
         function isSafe(v, c) {
             for (let i = 0; i < n; i++) {
@@ -912,6 +917,10 @@ export class InteractiveCanvas {
         function graphColoring(v) {
             if (v === n) {
                 return true;
+            }
+
+            if (Date.now() - startTime > 300) {
+                throw new Error('Graph coloring timed out!');
             }
 
             for (let c = 0; c < maxColors; c++) {
