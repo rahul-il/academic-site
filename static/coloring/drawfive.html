@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .warning {
+            font-weight: bold;
+            text-decoration: underline;
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <p>So far, every map needed just four colors. Can you construct a map which requires five?</p>
     <script src='turf.min.js'></script>
 
     <interactive-canvas mode="draw" coloring-mode="four"></interactive-canvas>
-    <div class="small" style="margin: 2px;">Warning: difficult! So skip after trying a lot.</div>
+    <div class="small" style="margin: 2px;">Warning: <span class="warning">difficult!</span> So skip after trying a lot.</div>
     <a  href="open.html" class="button-link">Skip</a>
     <p id="graph-coloring-status"></p>
       
