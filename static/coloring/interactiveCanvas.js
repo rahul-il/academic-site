@@ -34,7 +34,7 @@ export class InteractiveCanvas {
         this.polygonCenters = [];
         this.enclosedRegions = [];
         this.neighboringPolygons = [];
-        this.snapThreshold = 250; // Distance threshold for snapping (squared)
+        this.snapThreshold = 300; // Distance threshold for snapping (squared)
         this.useIntersectionDisplayThreshold = false;
         this.intersectionDisplayThreshold = 2000; // Distance threshold for displaying intersections (squared)
         this.historyStack = [];
