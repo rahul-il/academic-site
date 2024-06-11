@@ -742,6 +742,20 @@ export class InteractiveCanvas {
         return color;
     }
 
+    hasEnclosedRegion(polygon, polygonList){
+        let enclosedRegion = polygon;
+        for (let otherPolygon of polygonList) {
+            if (enclosedRegion && polygon !== otherPolygon && turf.booleanContains(polygon, otherPolygon)) {
+                enclosedRegion = turf.difference(enclosedRegion, otherPolygon);
+            }
+        }
+        if (enclosedRegion) {
+                return true
+        }
+        return false
+    }
+
+
     logPolygonization() {
         // Convert lines to coordinates array for MultiLineString
         const lineCoords = this.lines.map(line => [[line.start.x, line.start.y], [line.end.x, line.end.y]]);
@@ -767,8 +781,9 @@ export class InteractiveCanvas {
 
         // Filter out zero-area polygons
         const nonZeroAreaPolygons = uniquePolygons.filter(polygon => Math.log(turf.area(polygon)) > this.polygonThreshold);
+        const nonEmptyPolygons = nonZeroAreaPolygons.filter(polygon => this.hasEnclosedRegion(polygon, nonZeroAreaPolygons))
 
-        this.polygons = nonZeroAreaPolygons.map(feature => {
+        this.polygons = nonEmptyPolygons.map(feature => {
             return feature;
         });
 
