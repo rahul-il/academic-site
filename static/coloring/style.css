@@ -65,7 +65,7 @@ p{
 }
 
 small{
-    max-width: 400px;
+    max-width: min(400px, 80%)
 }
 .small{
     max-width: 400px;
