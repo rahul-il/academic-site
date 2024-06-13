@@ -9,35 +9,41 @@
     <script src='turf.min.js'></script>
 
     <p>
-        Appel and Haken proved 4 colors are enough for every map. 
-        There's also a simple method to check if 2 colors are enough for any given map.
+        Imagine someone hands you a map and challenges you: how many colors does this map need?
     </p>
-    <p>So 2 and 4 are easy. What about 3? 
-        Surprisingly, the 3 color case is one of the
- hardest and most important algorithmic questions in computer science.</p>
+    <p>
+        Thanks to Appel and Haken's proof, you know the answer is at most 4. 
+        There's also an easy way to check if the answer is 1 or 2.
+    </p>
+    <p>
+        So that just leaves you with deciding if 3 colors are enough.
+        Surprisingly, this is one of the toughest and most mysterious problems in computer science.
 
-    <p> A fast method for checking if 3 colors are enough for a map seems innocuous 
-        (after all, it exists for any number besides three).
-       But it would have enormous consequences -- at the very least
+    </p>
+
+    <p>
+        A fast way to check if 3 colors will do sounds easy enough 
+        (after all, it's doable for any number besides 3).
+       But it would have huge consequences: at the very least
         breaking all cryptography and revolutionizing artificial intelligence.
     </p>
-    <small>(Decrypting a message, training an optimal neural network, and many other basic tasks turn out to be questions about three-coloring maps in disguise.)</small>
+    <small>(Many important tasks like decrypting secret messages and training optimal neural networks are 3-coloring questions in disguise.)</small>
 
     <p>
         To this day, we still don't know if a fast method exists. 
-        It is arguably the biggest open question in mathematics.
+        It is arguably the biggest mystery   in mathematics.
     </p>
 
 
-    <p>Anyway, there's one last thing I want to show you. Here's another map:</p>
+    <p>Anyway, I want to show you one last thing. Take a look at this map:</p>
 
     <interactive-canvas mode="color" coloring-mode="four" preset-map="l3"></interactive-canvas>
     <script type="module" src="interactiveCanvasElement.js"></script>
 
     <p>
-        I claim three colors suffice. Do you trust me?
+        I claim 3 colors suffice. Do you trust me?
     </p>
-    <a href="trust.html" class="button-link">Sure, you seem like a stand up guy</a>
+    <a href="trust.html" class="button-link">Sure, you seem like a stand-up guy</a>
     <a href="trust.html" class="button-link">Nope, not after you asked for a map needing five colors</a>
 
 
