@@ -53,9 +53,9 @@ subtitle = ""
 <div class="col-12 col-lg-6">
 
 ### Quanta Magazine
-My work has been featured twice in Quanta Magazine:   
-<a href="https://www.quantamagazine.org/complexity-theorys-50-year-journey-to-the-limits-of-knowledge-20230817/">Complexity Theory’s 50-Year Journey to the Limits of Knowledge</a>   
-<a href="https://www.quantamagazine.org/cryptography-tricks-make-a-hard-problem-a-little-easier-20240418/">
+My work has been featured twice in Quanta Magazine:
+- <a href="https://www.quantamagazine.org/complexity-theorys-50-year-journey-to-the-limits-of-knowledge-20230817/">Complexity Theory’s 50-Year Journey to the Limits of Knowledge</a>
+- <a class="btn btn-outline-primary my-1 mr-1" href="https://www.quantamagazine.org/cryptography-tricks-make-a-hard-problem-a-little-easier-20240418/">
 Cryptography Tricks Make a Hard Problem a Little Easier</a>
 
 
