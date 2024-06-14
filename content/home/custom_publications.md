@@ -52,7 +52,7 @@ subtitle = "(reverse chronological order)"
 
 ### Beating Brute Force for Compression Problems
 ###### Shuichi Hirahara, Rahul Ilango, Ryan Williams
-STOC '24
+STOC '24  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://eccc.weizmann.ac.il/report/2023/171/">PDF</a>
 
 ### SAT Reduces to the Minimum Circuit Size Problem with a Random Oracle
