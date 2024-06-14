@@ -51,6 +51,7 @@ subtitle = ""
 +++
 <div class="row">
 <div class="col-12 col-lg-6">
+
 ### Quanta Magazine
 My work has been featured twice in Quanta Magazine:
 
@@ -62,6 +63,7 @@ I was awarded an <a href="https://new.nsf.gov/funding/opportunities/nsf-graduate
 </div>
 
 <div class="col-12 col-lg-6">
+
 ### 2020 Machtey Award (FOCS '20 Best Student Paper)
 My work "Constant Depth Formula and Partial Function Versions of MCSP are Hard" won the 2020 <a href="https://en.wikipedia.org/wiki/Machtey_Award">Machtey Award</a>
 
