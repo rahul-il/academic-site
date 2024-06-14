@@ -150,9 +150,10 @@
 
     <ul>
         <li>
-            <span class="collapsible plus" onclick="toggleContent('content1', this)">Question: Why does this hide the solution? Can't you piece it together?</span>
+            <span class="collapsible plus" onclick="toggleContent('content1', this)">Question: Why does this reveal "nothing"? Can't you piece together the solution?</span>
             <div id="content1" class="content">
-                <p><strong>Answer:</strong> Each time I color the map, I will randomly swap all the colors. This way, each time we do all the steps, you will just see two random colors. Thus, there is nothing consistent to piece together.</p>
+                <p><strong>Answer:</strong> Each time I color the map, I will randomly swap all the colors. This way, each time we do all the steps, you will just see two random colors. Thus, there is nothing consistent to piece together, or anything to learn from.</p>
+                <p> In more detail, there is (surprisingly) a mathematical definition by Goldwasser, Micali, and Rackoff of "revealing nothing." Goldreich, Micali, and Wigderson showed that the process above meets this definition.</p>
             </div>
         </li>
 
@@ -160,13 +161,6 @@
             <span class="collapsible plus" onclick="toggleContent('content2', this)">Question: Why should this convince you?</span>
             <div id="content2" class="content">
                 <p><strong>Answer:</strong> If three colors do not suffice, then there will always be one pair of touching regions with the same color. You have a small chance of picking this pair each time. By repeating the process enough times, the probability that you never catch me becomes smaller than, say, getting struck by lightning.</p>
-            </div>
-        </li>
-
-        <li>
-            <span class="collapsible plus" onclick="toggleContent('content3', this)">Question: Why does this reveal "nothing"?</span>
-            <div id="content3" class="content">
-                <p><strong>Answer:</strong> Surprisingly, there is a mathematical definition (by Goldwasser, Micali, and Rackoff) of "not learning anything." Goldreich, Micali, and Wigderson showed that the process above meets this definition.</p>
             </div>
         </li>
         <li>
