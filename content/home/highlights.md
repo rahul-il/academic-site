@@ -64,7 +64,7 @@ My work "Constant Depth Formula and Partial Function Versions of MCSP are Hard" 
 ### 2020 CCC Best Student Paper
 My work "Connecting Perebor Conjectures: Towards a Search to Decision Reduction for Minimizing Formulas" won the 2020 "Best Student Paper Award" at the <a href="https://computationalcomplexity.org/">Computational Complexity Conference</a>
 
-### 2021 ITCS Best Student Paper
+### 2020 ITCS Best Student Paper
 My work "Approaching MCSP from Above and Below: Hardness for a Conditional Variant and AC0[p]" won the 2020 "Best Student Paper Award" at the <a href="http://itcs-conf.org/">Innovations in Theoretical Computer Science</a> conference.
 
 
