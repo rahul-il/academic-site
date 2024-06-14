@@ -55,8 +55,7 @@ subtitle = ""
 ### Quanta Magazine
 My work has been featured twice in Quanta Magazine:
 - <a href="https://www.quantamagazine.org/complexity-theorys-50-year-journey-to-the-limits-of-knowledge-20230817/">Complexity Theory’s 50-Year Journey to the Limits of Knowledge</a>
-- <a  href="https://www.quantamagazine.org/cryptography-tricks-make-a-hard-problem-a-little-easier-20240418/">
-Cryptography Tricks Make a Hard Problem a Little Easier</a>
+- <a  href="https://www.quantamagazine.org/cryptography-tricks-make-a-hard-problem-a-little-easier-20240418/">Cryptography Tricks Make a Hard Problem a Little Easier</a>
 
 ### NSF Graduate Research Fellow
 I was awarded an <a href="https://new.nsf.gov/funding/opportunities/nsf-graduate-research-fellowship-program-grfp">NSF Graduate Research Fellowship</a> to support my graduate studies and research.
