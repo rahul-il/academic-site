@@ -49,7 +49,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
+<div class="row">
 <div class="col-12 col-lg-6">
 ### Quanta Magazine
 My work has been featured twice in Quanta Magazine:
@@ -70,6 +70,8 @@ My work "Connecting Perebor Conjectures: Towards a Search to Decision Reduction 
 
 ### 2020 ITCS Best Student Paper
 My work "Approaching MCSP from Above and Below: Hardness for a Conditional Variant and AC0[p]" won the 2020 "Best Student Paper Award" at the <a href="http://itcs-conf.org/">Innovations in Theoretical Computer Science</a> conference.
+</div>
+
 </div>
 
 
