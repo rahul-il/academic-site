@@ -14,6 +14,11 @@
   weight = 20
 
 [[main]]
+  name = "Highlights"
+  url = "#highlights"
+  weight = 25
+
+[[main]]
   name = "Publications"
   url = "#custom_publications"
   weight = 30
