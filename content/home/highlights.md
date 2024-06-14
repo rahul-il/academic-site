@@ -13,7 +13,7 @@ subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+  columns = "1"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -50,14 +50,18 @@ subtitle = ""
  css_class = ""
 +++
 
+<div class="col-12 col-lg-6">
 ### Quanta Magazine
 My work has been featured twice in Quanta Magazine:
 
 ### 2023 Machtey Award (FOCS '23 Best Student Paper)
 My work "SAT Reduces to the Minimum Circuit Size Problem with a Random Oracle" won the 2023 <a href="https://en.wikipedia.org/wiki/Machtey_Award">Machtey Award</a>
 
-### NSF Research Fellowship
+### NSF Graduate Research Fellow
+I was awarded an <a href="https://new.nsf.gov/funding/opportunities/nsf-graduate-research-fellowship-program-grfp">NSF Graduate Research Fellowship</a> to support my graduate studies and research.
+</div>
 
+<div class="col-12 col-lg-6">
 ### 2020 Machtey Award (FOCS '20 Best Student Paper)
 My work "Constant Depth Formula and Partial Function Versions of MCSP are Hard" won the 2020 <a href="https://en.wikipedia.org/wiki/Machtey_Award">Machtey Award</a>
 
@@ -66,6 +70,13 @@ My work "Connecting Perebor Conjectures: Towards a Search to Decision Reduction 
 
 ### 2020 ITCS Best Student Paper
 My work "Approaching MCSP from Above and Below: Hardness for a Conditional Variant and AC0[p]" won the 2020 "Best Student Paper Award" at the <a href="http://itcs-conf.org/">Innovations in Theoretical Computer Science</a> conference.
+</div>
+
+
+
+
+
+
 
 
 
