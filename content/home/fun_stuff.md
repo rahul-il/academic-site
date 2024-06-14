@@ -51,7 +51,7 @@ subtitle = "Warning: not related to research!"
 +++
 
 - [A desk](https://www.rahulilango.com/img/desk_pics.png) I recently made for my mom :)
-- [Some music](https://soundcloud.com/shattered-serenity) I co-wrote a long time ago
+- [Some music](https://soundcloud.com/shattered-serenity) I co-wrote a while ago
 - [A recipe](https://cookieandkate.com/black-bean-sweet-potato-enchiladas/) I like when I find time to cook
 - [A tool](http://www.scarletscheduledesigner.com/) I made that has helped thousands of Rutgers students plan their degrees
 
