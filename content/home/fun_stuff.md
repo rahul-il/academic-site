@@ -9,7 +9,7 @@ active = true  # Activate this widget? true/false
 weight = 35  # Order that this section will appear.
 
 title = "Fun Stuff"
-subtitle = "Danger: not research!"
+subtitle = "Danger: not research related"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -52,6 +52,7 @@ subtitle = "Danger: not research!"
 
 - [A desk](https://www.rahulilango.com/img/desk_pics.png) I  made for my mom :)
 - [Some music](https://soundcloud.com/shattered-serenity) I co-wrote
+- [An interactive "game"](https://www.rahulilango.com/coloring) I made about the four color theorem, P vs NP, and zero knowledge proofs
 - [A recipe](https://cookieandkate.com/black-bean-sweet-potato-enchiladas/) I really like
-- [A tool](http://www.scarletscheduledesigner.com/) I made that has helped thousands of Rutgers students plan their degrees
+- [A tool](http://www.scarletscheduledesigner.com/) I made that helped thousands of Rutgers' students plan their degrees
 
