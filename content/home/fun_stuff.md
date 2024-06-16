@@ -54,5 +54,5 @@ subtitle = "Danger: not research related"
 - [Some music](https://soundcloud.com/shattered-serenity) I co-wrote
 - [An educational "game"](https://www.rahulilango.com/coloring) I made involving four color theorem, P vs NP, and zero knowledge proofs
 - [A recipe](https://cookieandkate.com/black-bean-sweet-potato-enchiladas/) I really like
-- I made ScarletScheduleDesigner.com a (now-defunct) tool that helped thousands of Rutgers' students plan their degrees
-
+- I helped thousands of Rutgers' students plan their degrees
+ via a (now-defunct) tool I made (ScarletScheduleDesigner.com)
