@@ -71,12 +71,11 @@ My work "SAT Reduces to the Minimum Circuit Size Problem with a Random Oracle" w
 ### NSF Graduate Research Fellow
 I was awarded an <a href="https://new.nsf.gov/funding/opportunities/nsf-graduate-research-fellowship-program-grfp">NSF Graduate Research Fellowship</a> to support my graduate studies and research.
 
-### 2020 CCC Best Student Paper
-My work "Connecting Perebor Conjectures: Towards a Search to Decision Reduction for Minimizing Formulas" won the 2020 "Best Student Paper Award" at the <a href="https://computationalcomplexity.org/">Computational Complexity Conference</a>
-
 </div>
 <div class="col-12 col-lg-6">
 
+### 2020 CCC Best Student Paper
+My work "Connecting Perebor Conjectures: Towards a Search to Decision Reduction for Minimizing Formulas" won the 2020 "Best Student Paper Award" at the <a href="https://computationalcomplexity.org/">Computational Complexity Conference</a>
 
 </div>
 </div>
