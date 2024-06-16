@@ -79,6 +79,9 @@
         .color-symbol {
             font-size: 40px;
         }
+        .underline{
+            text-decoration: underline;
+        }
     </style>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
@@ -113,7 +116,7 @@
 
 
     <p>
-        I'll illustrate via a small example: </p>
+        I'll illustrate on a (very simple) example: </p>
 
     <div class="row" style="max-width: 100%;">
         <div class="column">
@@ -123,7 +126,7 @@
                 </li>
                 <li id="step-2" style="display: none;">Step 2.  You randomly click any two bordering regions, and I pull off their post-its</li>
                 <li id="step-3" style="display: none;">Step 3.  You check that the revealed colors are different</li>
-                <li id="step-4" style="display: none;">Step 4.  We repeat until you are satisfied. (And I reshuffle the colors)</li>
+                <li id="step-4" style="display: none;">Step 4.  We <span class="underline">repeat</span> until you are satisfied. (And I reshuffle the colors)</li>
             </ol>
             <div class="row">
                 <button id="next-step-button">See it & go to step 2</button>
