@@ -440,11 +440,11 @@ export class InteractiveCanvas {
         const color = this.permutedColors[this.colors.indexOf(polygon.properties.color)];
 
         
-
+        const size = 40;
 
         
         if (this.clickedPolygons.includes(index)){
-            const radius = 10; // background color of the circle
+            const radius = size/4; // background color of the circle
             const x = center.x - radius;
              const y = center.y - radius;
 
@@ -454,7 +454,6 @@ export class InteractiveCanvas {
             this.ctx.fillStyle = color; // Set the fill color
             this.ctx.fill(); 
         } else {
-            const size = 40;
 
             const x = center.x - size/2;
             const y = center.y -size/2;
@@ -466,7 +465,7 @@ export class InteractiveCanvas {
 
             // Draw the shadow
             this.ctx.fillStyle = shadowColor;
-            this.ctx.fillRect(x + 10, y + 10, width, height);
+            this.ctx.fillRect(x + size/4, y + size/4, width, height);
 
             // Draw the post-it note
             this.ctx.fillStyle = noteColor;
