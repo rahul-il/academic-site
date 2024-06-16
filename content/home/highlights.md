@@ -63,6 +63,7 @@ My work has been featured twice in Quanta Magazine:
 ### NSF Graduate Research Fellow
 I was awarded an <a href="https://new.nsf.gov/funding/opportunities/nsf-graduate-research-fellowship-program-grfp">NSF Graduate Research Fellowship</a> to support my graduate studies and research.
 </div>
+</div>
 <div class="row">
 <div class="col-12 col-lg-6">
 
@@ -74,6 +75,7 @@ My work "Constant Depth Formula and Partial Function Versions of MCSP are Hard" 
 ### 2023 Machtey Award (FOCS '23 Best Student Paper)
 My work "SAT Reduces to the Minimum Circuit Size Problem with a Random Oracle" won the 2023 <a href="https://en.wikipedia.org/wiki/Machtey_Award">Machtey Award</a>
 
+</div>
 </div>
 <div class="row">
 <div class="col-12 col-lg-6">
@@ -87,7 +89,6 @@ My work "Connecting Perebor Conjectures: Towards a Search to Decision Reduction 
 ### 2020 ITCS Best Student Paper
 My work "Approaching MCSP from Above and Below: Hardness for a Conditional Variant and AC0[p]" won the 2020 "Best Student Paper Award" at the <a href="http://itcs-conf.org/">Innovations in Theoretical Computer Science</a> conference.
 </div>
-
 </div>
 
 
