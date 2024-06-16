@@ -269,6 +269,7 @@
 
             let currentStep = 0;
             let satisfied = false;
+            let repeatedOnce = false;
             let mode = 'zk-postit';
             let reveals = [];
 
@@ -280,11 +281,12 @@
 
             const buttonTexts = ['See it & go to step 2', null, "Yep, they're different", 'Repeat!']
             const nextButton = document.getElementById('next-step-button')
+            
 
 
             function updateBasedOnStep(highlight){
                 ic.style.display = currentStep > 0 ? 'block' : 'none';
-                satButton.style.display = (! satisfied) && currentStep == steps[mode].length - 1 ? 'inline-block' : 'none';
+                satButton.style.display = repeatedOnce && (! satisfied) && currentStep == steps[mode].length - 1 ? 'inline-block' : 'none';
                 
                 let stepsHTML = [];
                 for (let i = 0; i <= currentStep; i++){
@@ -331,6 +333,7 @@
             document.getElementById('next-step-button').addEventListener('click', () => {
 
                 if (currentStep == steps[mode].length -1){
+                    repeatedOnce = true;
                     canvasContainerElement.dispatchEvent(new CustomEvent('restartZk', { }));
                 }
                 currentStep = currentStep < steps[mode].length -1 ? currentStep + 1 : 0;
