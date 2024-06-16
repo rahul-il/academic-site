@@ -9,7 +9,7 @@ active = true  # Activate this widget? true/false
 weight = 35  # Order that this section will appear.
 
 title = "Fun Stuff"
-subtitle = "Danger: not research related"
+subtitle = "not research related"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
