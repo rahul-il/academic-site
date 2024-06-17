@@ -142,3 +142,5 @@ Electronic Journal of Combinatorics &middot; Formal Power Series and Algebraic C
 <a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.37236/7903">PDF</a>
 
 
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
