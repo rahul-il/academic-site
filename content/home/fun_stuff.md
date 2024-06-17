@@ -84,7 +84,6 @@ subtitle = "not research related"
 
       // Here we listen for links that are submitted
       element.addEventListener("click", function (event) {
-        console.log('hello');
         // Stop when we already handled this event
         if (element.dataset.simpleAnalyticsClicked) return;
 
