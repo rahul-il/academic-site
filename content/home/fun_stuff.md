@@ -59,3 +59,95 @@ subtitle = "not research related"
 
 <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+<script>
+  // We enclose our code in an anonymous function, so it does not interfere with other code
+  (function () {
+    // What keyword should the links contain to create events for?
+    // If the URL is something like https://www.example.com/product/1234
+    // keyword = "/product/"
+    var keyword = "";
+
+    // Name for the event
+    var event = "link_click";
+
+    // This function binds an events to a link
+    function bindToLinks(element) {
+      // We check if the keyword is filled in
+      if (!keyword) return console.warn("Simple Analytics: No keyword set");
+
+      // Filter the links we want to bind to
+      if (!element.href || element.href.indexOf(keyword) === -1) return;
+
+      // We use dataset to check if we already added our event to this link
+      if (element.dataset.simpleAnalytics) return;
+      element.dataset.simpleAnalytics = "link-event";
+
+      // Here we listen for links that are submitted
+      element.addEventListener("click", function (event) {
+        // Stop when we already handled this event
+        if (element.dataset.simpleAnalyticsClicked) return;
+
+        // If the Simple Analytics script is not loaded, we don't do anything
+        if (!window.sa_loaded) return;
+
+        // We prevent the visitor from being navigated away, because we do this later after sa_event
+        event.preventDefault();
+
+        // We look for a button in the link to find the button text
+        var text = element.textContent ? element.textContent.trim().toLowerCase() : null;
+
+        // We add this text to the metadata of our event
+        var metadata = {
+          text: text,
+          hostname: element.hostname,
+          path: element.pathname,
+          id: element.getAttribute("id"),
+          classes: element.getAttribute("class")
+        };
+
+        // We send the event to Simple Analytics
+        window.sa_event(event, metadata, function () {
+          // Now we click the link for real
+          element.dataset.simpleAnalyticsClicked = "true";
+          element.click();
+        });
+      });
+    }
+
+    // This function finds all links and passes it to the bindToLinks function
+    function onDOMContentLoaded() {
+      document.querySelectorAll("a").forEach(bindToLinks);
+    }
+
+    // This code runs the onDOMContentLoaded function when the page is done loading
+    if (document.readyState === "ready" || document.readyState === "complete") {
+      onDOMContentLoaded();
+    } else {
+      document.addEventListener("readystatechange", function (event) {
+        if (event.target.readyState === "complete") onDOMContentLoaded();
+      });
+    }
+
+    // If there is no MutationObserver, we skip the following logic
+    if (!window.MutationObserver)
+      return console.warn("Simple Analytics: MutationObserver not found");
+
+    // We look for new link elements when the MutationObserver detects a change
+    var callback = function (mutationList) {
+      mutationList.forEach(function (mutation) {
+        mutation.addedNodes.forEach(function (node) {
+          // We look for link elements in the page
+          if (node && node.tagName === "A") bindToLinks(node);
+        });
+      });
+    };
+
+    // This is the observer that detects changes on the page
+    // it can happen that new links are created after the inital page load
+    // For example, in a modal that pops up to change some data.
+    var observer = new MutationObserver(callback);
+
+    // Here we start observing the page for changes
+    observer.observe(document.body, { childList: true, subtree: true });
+  })();
+</script>
