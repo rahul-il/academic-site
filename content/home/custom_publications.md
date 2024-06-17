@@ -140,7 +140,3 @@ CSR '19 &middot; to appear in Theory of Computing Systems Special Issue for CSR 
 ###### Rahul Ilango, Oliver Pechenik and Michael Zlatin  
 Electronic Journal of Combinatorics &middot; Formal Power Series and Algebraic Combinatorics Conference (FPSAC '19)  
 <a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.37236/7903">PDF</a>
-
-
-<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>

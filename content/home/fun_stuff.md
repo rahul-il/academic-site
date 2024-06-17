@@ -56,3 +56,6 @@ subtitle = "not research related"
 - [A recipe](https://cookieandkate.com/black-bean-sweet-potato-enchiladas/) I really like
 - I helped thousands of Rutgers' students make 4-year plans for their degrees
  via a (now-defunct) tool I made (ScarletScheduleDesigner)
+
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
