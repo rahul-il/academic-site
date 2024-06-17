@@ -65,7 +65,7 @@ subtitle = "not research related"
     // What keyword should the links contain to create events for?
     // If the URL is something like https://www.example.com/product/1234
     // keyword = "/product/"
-    var keyword = "/home/";
+    var keyword = "";
 
     // Name for the event
     var event = "link_click";
