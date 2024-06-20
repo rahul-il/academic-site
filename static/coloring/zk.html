@@ -123,6 +123,7 @@
             <ol id="step-list">
                 <li id="step-1" class="current-step">
                     Step 1. I place a <span style="color: #7F58AF;" class="color-dot">&#9679;</span>, <span style="color: #64C5EB;" class="color-dot">&#9679;</span>, or <span class="color-dot" style="color: #E84D8A;">&#9679;</span>  color dot on each region, but then hide it under a post-it 
+                    <div class="small-text">(Assume I can't change a color after I put it under a post-it)</div>
                 </li>
                 <li id="step-2" style="display: none;">Step 2.  You randomly click any two bordering regions, and I pull off their post-its</li>
                 <li id="step-3" style="display: none;">Step 3.  You check that the revealed colors are different</li>
@@ -236,7 +237,7 @@
         document.addEventListener('DOMContentLoaded', (event) => {
             const steps = {
                 'zk-postit': [
-                                    `                    Step 1. I put a <span style="color: #7F58AF;" class="color-dot">&#9679;</span>, <span style="color: #64C5EB;" class="color-dot">&#9679;</span>, or <span class="color-dot" style="color: #E84D8A;">&#9679;</span> color dot on each region, but hide it under a post-it`,
+                                    `                    Step 1. I put a <span style="color: #7F58AF;" class="color-dot">&#9679;</span>, <span style="color: #64C5EB;" class="color-dot">&#9679;</span>, or <span class="color-dot" style="color: #E84D8A;">&#9679;</span> color dot on each region, but hide it under a post-it <div class="small-text">(Assume I can't change a color after I put it under a post-it)</div>`,
                                     `Step 2.  You click any two bordering regions, and I pull off their post-its`,
                                     `Step 3.  You check that the revealed colors are different`,
                                     `Step 4.  We repeat until you are satisfied. (But I reshuffle the colors each time)`,
@@ -269,7 +270,7 @@
 
             let currentStep = 0;
             let satisfied = false;
-            let repeatedOnce = false;
+            let repeatedOnce = true;
             let mode = 'zk-postit';
             let reveals = [];
 
