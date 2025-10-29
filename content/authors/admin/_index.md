@@ -67,7 +67,7 @@ I am a postdoc in theoretical computer science at the [Insitute for Advanced Stu
 
 Before this, I had a wonderful PhD at MIT advised by [Ryan Williams](https://people.csail.mit.edu/rrw/). Before that, I was an undergraduate at Rutgers University, where I was lucky to learn from [Eric Allender](https://www.cs.rutgers.edu/~allender/) and [Michael Saks](https://sites.math.rutgers.edu/~saks/). 
 
-I also had the good fortune to intern at Google Research with [Badih Ghazi](https://sites.google.com/view/badihghazi/home), [Pritish Kamath](https://pritishkamath.github.io), [Ravi Kumar](https://sites.google.com/site/ravik53/), and [Pasin Manurangsi](https://pasin30055.github.io) and to participate twice in the [DIMACS REU program](https://reu.dimacs.rutgers.edu/).
+I also interned Google Research with [Badih Ghazi](https://sites.google.com/view/badihghazi/home), [Pritish Kamath](https://pritishkamath.github.io), [Ravi Kumar](https://sites.google.com/site/ravik53/), and [Pasin Manurangsi](https://pasin30055.github.io) and participated twice in the [DIMACS REU program](https://reu.dimacs.rutgers.edu/).
 
 Most of my research is in the field of computational complexity theory, which quantifies the amount of resources --- like time and hardware --- needed to solve computational tasks, like finding the fastest route from point A to point B on a map.
 
