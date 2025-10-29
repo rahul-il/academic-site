@@ -50,6 +50,20 @@ subtitle = "(reverse chronological order)"
  css_class = "pub_list"
 +++
 
+### Gödel in Cryptography: Effectively Zero-Knowledge Proofs for NP with No Interaction, No Setup, and Perfect Soundness
+###### Rahul Ilango
+FOCS '25 &middot; **Best Student Paper Award**  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://eprint.iacr.org/2025/1296">PDF</a>
+
+### NP-hardness of the Minimum Circuit Size Problem from Well-Studied Assumptions
+###### Shuichi Hirahara, Rahul Ilango
+FOCS '25
+
+### Cryptography meets worst-case complexity: Optimal security and more from iO and worst-case assumptions
+###### Rahul Ilango, Alex Lombardi
+FOCS '25
+<a class="btn btn-outline-primary my-1 mr-1" href="https://eprint.iacr.org/2025/1087">PDF</a>
+
 ### Beating Brute Force for Compression Problems
 ###### Shuichi Hirahara, Rahul Ilango, Ryan Williams
 STOC '24  
