@@ -60,6 +60,14 @@ My work has been featured twice in Quanta Magazine:
 </div>
 <div class="col-12 col-lg-6">
 
+### 2025 Machtey Award (FOCS '25 Best Student Paper)
+My work "Gödel in Cryptography: Effectively Zero-Knowledge Proofs for NP with No Interaction, No Setup, and Perfect Soundness" won the 2025 <a href="https://en.wikipedia.org/wiki/Machtey_Award">Machtey Award</a>
+
+</div>
+</div>
+<div class="row">
+<div class="col-12 col-lg-6">
+
 ### 2023 Machtey Award (FOCS '23 Best Student Paper)
 My work "SAT Reduces to the Minimum Circuit Size Problem with a Random Oracle" won the 2023 <a href="https://en.wikipedia.org/wiki/Machtey_Award">Machtey Award</a>
 
