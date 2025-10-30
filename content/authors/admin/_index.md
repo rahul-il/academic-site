@@ -63,9 +63,7 @@ user_groups:
 - Visitors
 ---
 
-I am a postdoc in theoretical computer science at the [Insitute for Advanced Study](https://www.ias.edu). 
-
-Before this, I had a wonderful PhD at MIT advised by [Ryan Williams](https://people.csail.mit.edu/rrw/). Before that, I was an undergraduate at Rutgers University, where I was lucky to learn from [Eric Allender](https://www.cs.rutgers.edu/~allender/) and [Michael Saks](https://sites.math.rutgers.edu/~saks/). 
+I am a postdoc in theoretical computer science at the [Insitute for Advanced Study](https://www.ias.edu). Before this, I had a wonderful PhD at MIT advised by [Ryan Williams](https://people.csail.mit.edu/rrw/). Before that, I was an undergraduate at Rutgers University, where I was lucky to learn from [Eric Allender](https://www.cs.rutgers.edu/~allender/) and [Michael Saks](https://sites.math.rutgers.edu/~saks/). 
 
 I also interned Google Research with [Badih Ghazi](https://sites.google.com/view/badihghazi/home), [Pritish Kamath](https://pritishkamath.github.io), [Ravi Kumar](https://sites.google.com/site/ravik53/), and [Pasin Manurangsi](https://pasin30055.github.io) and participated twice in the [DIMACS REU program](https://reu.dimacs.rutgers.edu/).
 
