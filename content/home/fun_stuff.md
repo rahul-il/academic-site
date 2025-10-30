@@ -52,7 +52,7 @@ subtitle = "not research related"
 
 - [A desk](https://www.rahulilango.com/img/desk_pics.png) I  made for my mom :)
 - [Some music](https://soundcloud.com/shattered-serenity) I co-wrote
-- [An educational "game"](https://www.rahulilango.com/coloring) I created introducing the four color theorem, P vs NP, and zero knowledge proofs. Over 20,000 people have played it, and it reached #1 on [Hacker News](https://news.ycombinator.com/item?id=40740021)
+- [An educational "game"](https://www.rahulilango.com/coloring) I created introducing the four color theorem, P vs NP, and zero knowledge proofs. Over 20,000 people have played, and it reached [#1 on Hacker News](https://news.ycombinator.com/item?id=40740021)
 - [A recipe](https://cookieandkate.com/black-bean-sweet-potato-enchiladas/) I really like
 - I helped thousands of Rutgers' students make 4-year plans for their degrees
  via a (now-defunct) tool I made (ScarletScheduleDesigner)
