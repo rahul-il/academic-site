@@ -58,7 +58,7 @@ FOCS '25 &middot; **Best Student Paper Award**
 ### NP-hardness of the Minimum Circuit Size Problem from Well-Studied Assumptions
 ###### Shuichi Hirahara, Rahul Ilango
 FOCS '25  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://www.rahulilango.com/papers/MCSP-Proceedings-2025.pdf">PDF</a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.rahulilango.com/papers/MCSP-Proceedings-2025.pdf">PDF (Proceedings)</a>
 
 ### Cryptography meets worst-case complexity: Optimal security and more from iO and worst-case assumptions
 ###### Rahul Ilango, Alex Lombardi
