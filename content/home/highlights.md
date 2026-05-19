@@ -57,7 +57,8 @@ My work was <a href="https://www.scientificamerican.com/article/how-effectively-
 
 </div>
 <div class="col-12 col-lg-6">
-  ### Quanta Magazine
+
+### Quanta Magazine
 My work has been featured three times in Quanta Magazine:
 - <a href="https://www.quantamagazine.org/how-unknowable-math-can-help-hide-secrets-20260511/">How Unknowable Math Can Help Hide Secrets</a>
 - <a href="https://www.quantamagazine.org/complexity-theorys-50-year-journey-to-the-limits-of-knowledge-20230817/">Complexity Theory’s 50-Year Journey to the Limits of Knowledge</a>
